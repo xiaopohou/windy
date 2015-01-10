@@ -1,0 +1,9 @@
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Debug\Windy.Service.DAL.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Debug\Windy.Service.DAL.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Debug\Windy.Common.Libraries.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Debug\MySql.Data.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Debug\NPOI.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Debug\Windy.Common.Libraries.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\obj\Debug\Windy.Service.DAL.csprojResolveAssemblyReference.cache
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\obj\Debug\Windy.Service.DAL.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\obj\Debug\Windy.Service.DAL.pdb

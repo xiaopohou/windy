@@ -1,0 +1,16 @@
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\Windy.Service.Data\bin\Release\Windy.Service.Data.dll
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\Windy.Service.Data\bin\Release\Windy.Service.Data.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\Windy.Service.Data\obj\Release\Windy.Service.Data.csprojResolveAssemblyReference.cache
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\Windy.Service.Data\obj\Release\Windy.Service.Data.dll
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\Windy.Service.Data\obj\Release\Windy.Service.Data.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\bin\Release\Windy.Service.Data.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\bin\Release\Windy.Service.Data.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\bin\Release\MySql.Data.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\bin\Release\Windy.Common.Libraries.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\bin\Release\Windy.Service.DAL.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\bin\Release\NPOI.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\bin\Release\Windy.Common.Libraries.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\bin\Release\Windy.Service.DAL.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\obj\Release\Windy.Service.Data.csprojResolveAssemblyReference.cache
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\obj\Release\Windy.Service.Data.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\obj\Release\Windy.Service.Data.pdb

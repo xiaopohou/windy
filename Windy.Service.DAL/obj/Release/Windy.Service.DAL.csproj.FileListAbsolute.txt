@@ -1,0 +1,14 @@
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\Windy.Service.DAL\bin\Release\Windy.Service.DAL.dll
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\Windy.Service.DAL\bin\Release\Windy.Service.DAL.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\Windy.Service.DAL\obj\Release\Windy.Service.DAL.csprojResolveAssemblyReference.cache
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\Windy.Service.DAL\obj\Release\Windy.Service.DAL.dll
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\Windy.Service.DAL\obj\Release\Windy.Service.DAL.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Release\Windy.Service.DAL.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Release\Windy.Service.DAL.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Release\Windy.Common.Libraries.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Release\MySql.Data.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Release\NPOI.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\bin\Release\Windy.Common.Libraries.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\obj\Release\Windy.Service.DAL.csprojResolveAssemblyReference.cache
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\obj\Release\Windy.Service.DAL.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\obj\Release\Windy.Service.DAL.pdb
