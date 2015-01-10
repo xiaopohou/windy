@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Areas/SubExamPlace/Views/Shared/_Layout.cshtml";
+}
+
+<style >
+
+
+    .loginspan {
+        color: #8CC5e3;
+        font-weight: bold;
+    }
+
+    .loginButton {
+        font-size: 0px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 86px;
+        height: 36px;
+        cursor: hand;
+        background-image: url(/Images/login/1_11.gif);
+    }
+
+</style>
+@model Windy.Service.DAL.Users
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div  class="lanmu_box_style1_right" id="sublanmu_style1_right">
+
+        <table>
+            <tr>
+                <td>
+                    <span class="loginspan">手机号:</span>
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.Tel)
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="loginspan">密&nbsp; 码:</span>
+                </td>
+                <td>
+                    @Html.PasswordFor(model => model.PassWord)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+
+                    <input type="image" src="~/Content/Images/login/1_11.gif" value="登陆" /> <span style="font-size:small;color:red; padding-top:10px;">@Html.ValidationMessage("Message") </span>
+                </td>
+
+            </tr>
+        </table>
+
+    </div>
+}

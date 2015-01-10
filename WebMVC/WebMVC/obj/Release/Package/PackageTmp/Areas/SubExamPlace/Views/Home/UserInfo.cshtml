@@ -1,0 +1,165 @@
+﻿@{
+    ViewBag.Title = "UserInfo";
+    Layout = "~/Areas/SubExamPlace/Views/Shared/_Layout.cshtml";
+    Users user = Session["CurrentUser"] as Users;
+    List<Users> roomies = ViewData["roomies"] as List<Users>;
+}
+
+@using Windy.Service.DAL;
+
+<form id="form1" action="UserInfo" method="post">
+    <div class="lanmu_box_style1_right" id="sublanmu_style1_right" runat="server">
+        <table>
+            <tr>
+                <td>
+                    姓名:
+                </td>
+                <td>
+                    <input type="text" id="txtName" name="txtName" value="@user.Name" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    性别:
+                </td>
+                <td>
+                    <input type="text" id="txtGender" name="txtGender" value="@user.Gender" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    联系方式:
+                </td>
+                <td>
+                    <input type="text" id="txtTel" name="txtTel" value="@user.Tel" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    所在学校:
+                </td>
+                <td>
+                    <input type="text" id="txtSchool" name="txtSchool" value="@user.School" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    收缴余款所在地:
+                </td>
+                <td>
+                    <input type="text" id="txtPayPlace" name="txtPayPlace" value="@user.PayPlace" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    报考类型:
+                </td>
+                <td>
+                    <input type="text" id="txtTemplate" name="txtTemplate" value="@user.Template" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    报考学校:
+                </td>
+                <td>
+                    <input type="text" id="txtExamSchool" name="txtExamSchool" value="@user.ExamSchool" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    提交考点:
+                </td>
+                <td style="background-color:red;">
+                    <input type="text" id="txtExamPlace" name="txtExamPlace" value="@user.ExamPlace"  />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    意向同住人:
+                </td>
+                <td>
+                    <input type="text" id="txtExceptRoomie" name="txtExceptRoomie" value="@user.ExceptRoomie" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    备注：
+                </td>
+                <td>
+                    <input type="text" id="txtBaks" name="txtBaks" value="@user.Bak" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    酒店:
+                </td>
+                <td>
+                    <input type="text" id="txtHotel" name="txtHotel" value="@user.Hotel" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    房间号:
+                </td>
+                <td>
+                    <input type="text" id="txtRoom" value="@user.Room" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    实际室友:
+                </td>
+                <td id="Roomies">
+                    @if (roomies != null)
+                    {
+                        foreach (Users item in roomies)
+                        {
+                            if (user.ID == item.ID)
+                            {
+                                continue; 
+                            }
+                            <a href="RoomieInfo/@item.ID">@item.Name</a>
+                        }
+                    }
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    酒店房价:
+                </td>
+                <td>
+                    <input type="text" id="txtHotelExpense" value="@user.HotelExpense" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    已交款额:
+                </td>
+                <td>
+
+                    <input type="text" id="txtPayMoney" value="@user.PayMoney" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    多退少补:
+                </td>
+                <td>
+                    <input type="text" id="txtMoneyBack" value="@user.MoneyBack" disabled="disabled" />
+                </td>
+            </tr>
+
+
+            <tr>
+                <td></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" id="btnChange" value="修改个人信息" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>

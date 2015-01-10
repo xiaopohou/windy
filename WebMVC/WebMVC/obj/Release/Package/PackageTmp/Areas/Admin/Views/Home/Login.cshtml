@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+@model Windy.Service.DAL.Employee
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>状元乐后台管理系统</title>
+    
+    <link href="~/Content/Login.css" rel="stylesheet" />
+</head>
+<body>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true) 
+      <div id="main">
+            <div id="top">
+                <div id="top_one">
+                </div>
+                <div id="top_two">
+                </div>
+                <div id="top_three">
+                </div>
+                <div id="top_four">
+                </div>
+            </div>
+            <div id="bottom" style="">
+                <div id="bottom_one">
+                </div>
+                <div id="bottom_two">
+                </div>
+                <div id="bottom_three">
+                    <table class="Logintable">
+                        <tr>
+                            <td>
+                                <span class="loginspan">用户名:</span>
+                            </td>
+                            <td>
+                                @Html.EditorFor(model => model.EmpNo)
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="loginspan">密&nbsp; 码:</span>
+                            </td>
+                            <td>
+                                @Html.PasswordFor(model => model.Pwd)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center" >
+                                
+                                <input type="image" src="~/Content/Images/login/1_11.gif"  value="登陆" /> <span style="font-size:small;color:red; padding-top:10px;">@Html.ValidationMessage("Message") </span> 
+                            </td>
+                            
+                        </tr>
+                    </table>
+                </div>
+                <div id="botton_four">
+                </div>
+            </div>
+        </div>
+}
+   
+</body>
+</html>

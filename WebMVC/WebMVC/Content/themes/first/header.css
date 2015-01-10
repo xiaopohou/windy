@@ -1,0 +1,453 @@
+﻿#topbar {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 50px;
+    background-color: #222;
+    background-image: -webkit-linear-gradient(270deg,#262626,#1a1a1a);
+    background-image: linear-gradient(180deg,#262626,#1a1a1a);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    font-family: "Helvetica Neue",Arial,"Microsoft Yahei",sans-serif;
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index:4;
+    opacity:0.95;filter:alpha(opacity=50);
+
+}
+
+    #topbar .container {
+        background-color: #222;
+        background-image: -webkit-linear-gradient(270deg,#262626,#1A1A1A);
+        background-image: linear-gradient(180deg,#262626,#1A1A1A);
+    }
+
+    #topbar .m-apps {
+        float: left;
+        display: block;
+        margin: 8px 15px 0 0;
+        width: 82px;
+        height: 24px;
+        border-radius: 3px;
+        background: #2D2D2D;
+        font-size: 12px;
+        text-align: center;
+        line-height: 24px;
+        color: #ABABAB;
+    }
+
+.topbar-search {
+    position: relative;
+    float: left;
+    margin-top: 7px;
+}
+
+    .topbar-search .tsearch-input {
+        margin: 0;
+        outline: 0;
+    }
+
+        .topbar-search .tsearch-input::-ms-clear {
+            display: none;
+        }
+
+    .topbar-search .tsearch-input {
+        padding: 0;
+        width: auto;
+        height: auto;
+        background: 0;
+        border: 0;
+        border-radius: 0;
+        outline: 0;
+        -webkit-transition: none;
+        transition: none;
+        box-shadow: none;
+    }
+
+        .topbar-search .tsearch-input:focus, .topbar-search .tsearch-input:active {
+            border: 0;
+            box-shadow: none;
+        }
+
+    .topbar-search .icon-tsearch, .topbar-search .icon-tloading, .topbar-search .icon-tclear {
+        float: right;
+        width: 15px;
+        height: 15px;
+        margin-top: 1px;
+    }
+
+    .topbar-search .icon-tsearch {
+        float: left;
+        margin-right: 5px;
+        background: url("images/topbar.png?v=2") no-repeat transparent 0 -60px;
+    }
+
+    .topbar-search .icon-tloading {
+        background: url("images/topbar-search-loading.gif") no-repeat center;
+    }
+
+    .topbar-search .icon-tclear {
+        background: url("images/topbar.png?v=2") no-repeat transparent -40px -60px;
+    }
+
+    .topbar-search .tsearch-form {
+        width: 200px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 26px;
+        border: 1px solid #141414;
+        border-radius: 3px;
+        box-shadow: inset 0 2px 4px rgba(0,0,0,0.3),0 1px 0 #2a2a2a;
+        background: #4e4e4e;
+        padding: 3px 6px;
+        -webkit-transition: all .2s linear 0s;
+        transition: all .2s linear 0s;
+    }
+
+        .topbar-search .tsearch-form.focus {
+            background: white;
+        }
+
+            .topbar-search .tsearch-form.focus .icon-tsearch {
+                background-position: -20px -60px;
+            }
+
+            .topbar-search .tsearch-form.focus .tsearch-in-rst > .icon-tsearch {
+                background-position: 0 -60px;
+            }
+
+    .topbar-search .tsearch-input {
+        float: left;
+        width: 143px;
+        height: 18px;
+        font-size: 12px;
+        color: #222;
+    }
+
+    .topbar-search ::-webkit-input-placeholder {
+        color: #999;
+    }
+
+    .topbar-search ::-moz-placeholder {
+        color: #999;
+    }
+
+    .topbar-search :-ms-input-placeholder {
+        color: #999;
+    }
+
+    .topbar-search .tsearch-in-rst {
+        float: left;
+        margin: -1px 5px 0 -4px;
+        padding: 0 4px;
+        border: 1px solid #7f7f7f;
+        border-radius: 2px;
+        background: #6f6f6f;
+        color: white;
+        font: 12px/18px sans-serif;
+    }
+
+        .topbar-search .tsearch-in-rst + .tsearch-input {
+            width: 100px;
+        }
+
+    .topbar-search .action-remove {
+        margin-left: 2px;
+        color: #c0c0c0;
+        font: 12px/12px tahoma;
+    }
+
+.topbar-nav {
+    float: right;
+}
+
+    .topbar-nav .tnav-link {
+        display: block;
+        height: 40px;
+        padding: 0 10px;
+        color: #ccc;
+        font-size: 13px;
+        line-height: 40px;
+    }
+
+        .topbar-nav .tnav-link.current {
+            background: #111;
+            color: white;
+        }
+
+        .topbar-nav .tnav-link > a {
+            color: #ccc;
+        }
+
+    .topbar-nav .tnav-username {
+        font-size: 14px;
+    }
+
+    .topbar-nav .tnav-link {
+        display: block;
+        height: 40px;
+        padding: 0 10px;
+        color: #ccc;
+        font-size: 13px;
+        line-height: 40px;
+    }
+
+        .topbar-nav .tnav-link.current {
+            background: #111;
+            color: white;
+        }
+
+        .topbar-nav .tnav-link > a {
+            color: #ccc;
+        }
+
+.topbar-site-nav {
+    position: relative;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+    .topbar-site-nav:after {
+        content: "";
+        position: absolute;
+        right: -10px;
+        top: 13px;
+        display: block;
+        width: 1px;
+        height: 14px;
+        background: #2e2e2e;
+    }
+
+    .topbar-site-nav > li {
+        float: left;
+    }
+
+.eleme_dropdown {
+    position: relative;
+}
+
+    .eleme_dropdown.open > .e_dropdown {
+        display: block;
+    }
+
+    .eleme_dropdown .caret {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 5px;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 4px solid #666;
+        vertical-align: middle;
+    }
+
+    .eleme_dropdown .divider {
+        height: 1px;
+        width: 100%;
+        background-color: #e0e0e0;
+    }
+
+    .eleme_dropdown > .e_dropdown {
+        position: absolute;
+        display: none;
+        z-index: 100;
+    }
+
+a {
+    cursor: pointer;
+}
+
+#topbar a {
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    margin-right: 10px;
+    display: block;
+    width: 90px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.topbar-user-nav {
+    float: left;
+    margin-left: 10px;
+}
+
+    .topbar-user-nav .caret {
+        color: #ccc;
+    }
+
+.topbar-user-dropdown {
+    top: 37px;
+    right: 0;
+    width: 100px;
+    background: white;
+    padding: 5px 0 !important;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+    border-radius: 3px;
+}
+
+    .topbar-user-dropdown:after {
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: auto;
+        right: 30px;
+        display: inline-block;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid #fff;
+    }
+
+    .topbar-user-dropdown .divider {
+        margin: 5px 0;
+    }
+
+    .topbar-user-dropdown a {
+        display: block;
+        padding: 5px 15px;
+        color: #222;
+        font-size: 12px;
+    }
+
+        .topbar-user-dropdown a:hover {
+            background-color: #eee;
+        }
+
+    .topbar-user-dropdown [class^='icon-'] {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin-right: 5px;
+        background: url("/images/forward/global/topbar.png?v=2") no-repeat transparent;
+    }
+
+    .topbar-user-dropdown .icon-profile {
+        background-position: 0 -100px;
+    }
+
+    .topbar-user-dropdown .icon-fav {
+        background-position: -20px -100px;
+    }
+
+    .topbar-user-dropdown .icon-address {
+        background-position: -40px -100px;
+    }
+
+    .topbar-user-dropdown .icon-config {
+        background-position: -60px -100px;
+    }
+
+    .topbar-user-dropdown .icon-logout {
+        background-position: -80px -100px;
+    }
+
+.topbar-widget {
+    float: left;
+    font-size: 13px;
+    color: #222;
+}
+
+.topbar-widget {
+    float: left;
+    font-size: 13px;
+    color: #222;
+}
+
+    .topbar-widget .icon-tcart, .topbar-widget .icon-tmsg {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+
+    .topbar-widget .icon-tcart {
+        background: url("images/topbar.png?v=2") no-repeat transparent 0 -80px;
+    }
+
+    .topbar-widget .icon-tmsg {
+        background: url("images/topbar.png?v=2") no-repeat transparent -20px -80px;
+    }
+
+    .topbar-widget .twidget-toggle {
+        padding: 10px;
+        position: relative;
+        display: block;
+    }
+
+    .topbar-widget .twidget-total {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        padding: 1px;
+        min-width: 10px;
+        border-radius: 6px;
+        background-color: #dd5401;
+        color: white;
+        font: normal 10px/10px arial,sans-serif;
+        text-align: center;
+    }
+
+    .topbar-widget .twidget-dropdown {
+        top: 37px;
+        right: -13px;
+        padding-top: 3px;
+        background: white;
+        box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+        border-radius: 3px;
+    }
+
+        .topbar-widget .twidget-dropdown:after {
+            content: "";
+            position: absolute;
+            top: -5px;
+            left: auto;
+            right: 30px;
+            display: inline-block;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid #fff;
+        }
+
+    .topbar-widget .twidget-footer {
+        height: 48px;
+        padding: 0 20px;
+        border-top: 1px solid #d7d7d7;
+        border-radius: 0 0 3px 3px;
+        background: #ececec;
+        color: #555;
+        font-size: 12px;
+        text-align: right;
+    }
+
+    .topbar-widget .twidget-btn {
+        display: inline-block;
+        width: 64px;
+        height: 26px;
+        margin: 10px 0 0 0;
+        border: 1px solid #b9b9b9;
+        border-radius: 2px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        background-color: #e0e0e0;
+        background-image: -webkit-linear-gradient(270deg,#f3f3f3,#e0e0e0);
+        background-image: linear-gradient(180deg,#f3f3f3,#e0e0e0);
+        color: #222;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .topbar-widget .twidget-loading {
+        height: 50px;
+        padding: 12px 0;
+        background: url("/images/gif-eleme-loader.gif") no-repeat center;
+    }
+
+    .topbar-widget .twidget-empty {
+        font-size: 13px;
+        padding: 12px 20px;
+    }
+
+.topbar-cart.empty .tcart-total {
+    display: none;
+}

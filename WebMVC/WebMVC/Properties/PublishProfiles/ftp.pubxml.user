@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPsgba3UiaEWVNvLthgTHygAAAAACAAAAAAAQZgAAAAEAACAAAADC94iJVc4R2fHxLqJ6coWcZ+SnFtjXFKKNnu92d6zvwQAAAAAOgAAAAAIAACAAAABeE12JF+NNy1TMHt8y2j/han07VbDpDim9u+bpPvDxpiAAAACAxFWghGq8rxWxv8LUepZr4SYnplVEZigRLuINA/hcZkAAAAC4kdguqmXTH+dO2TPbgeA0k+zWXz7QsegiYI5LpVF4DMgXiH6w7YyzQP3mev/0FcidZWGhyXr/ijKukP/hK97a</EncryptedPassword>
+    <_PublishTargetUrl>ftp://121.41.118.136/mvc/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/Admin/Views/Demand/Index.cshtml">
+      <publishTime>09/10/2014 14:39:03</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Employee/Index.cshtml">
+      <publishTime>11/18/2014 22:11:01</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ExamPlace/Index.cshtml">
+      <publishTime>11/16/2014 11:59:05</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/Index.cshtml">
+      <publishTime>11/16/2014 23:24:21</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/Login.cshtml">
+      <publishTime>09/11/2014 09:20:45</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/test.cshtml">
+      <publishTime>09/11/2014 10:36:47</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/tttt.cshtml">
+      <publishTime>09/09/2014 11:15:27</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Menu/Index.cshtml">
+      <publishTime>09/09/2014 16:58:10</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/News/Index.cshtml">
+      <publishTime>09/10/2014 15:23:32</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orgnization/Index.cshtml">
+      <publishTime>11/16/2014 11:50:25</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_Layout.cshtml">
+      <publishTime>09/10/2014 15:00:31</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Users/FileUpload.cshtml">
+      <publishTime>11/16/2014 11:20:06</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Users/Index.cshtml">
+      <publishTime>11/16/2014 11:42:00</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Web.config">
+      <publishTime>09/04/2014 16:06:09</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/HelpPage.css">
+      <publishTime>09/04/2014 14:50:52</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
+      <publishTime>09/04/2014 16:16:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
+      <publishTime>09/04/2014 16:18:05</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
+      <publishTime>09/04/2014 16:17:46</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
+      <publishTime>09/04/2014 16:17:46</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
+      <publishTime>09/04/2014 16:17:46</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
+      <publishTime>09/04/2014 14:50:52</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
+      <publishTime>09/04/2014 14:50:52</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
+      <publishTime>09/04/2014 16:17:46</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
+      <publishTime>09/04/2014 16:13:56</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
+      <publishTime>09/04/2014 14:50:51</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Web.config">
+      <publishTime>09/04/2014 14:50:51</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
+      <publishTime>09/04/2014 14:50:39</publishTime>
+    </File>
+    <File Include="Areas/SubExamPlace/Views/Home/examplace.cshtml">
+      <publishTime>11/22/2014 23:54:48</publishTime>
+    </File>
+    <File Include="Areas/SubExamPlace/Views/Home/Index.cshtml">
+      <publishTime>11/21/2014 11:10:53</publishTime>
+    </File>
+    <File Include="Areas/SubExamPlace/Views/Home/Login.cshtml">
+      <publishTime>12/26/2014 09:47:14</publishTime>
+    </File>
+    <File Include="Areas/SubExamPlace/Views/Home/RoomieInfo.cshtml">
+      <publishTime>11/21/2014 16:44:29</publishTime>
+    </File>
+    <File Include="Areas/SubExamPlace/Views/Home/UserInfo.cshtml">
+      <publishTime>11/21/2014 16:40:41</publishTime>
+    </File>
+    <File Include="Areas/SubExamPlace/Views/Shared/_Layout.cshtml">
+      <publishTime>12/26/2014 08:50:08</publishTime>
+    </File>
+    <File Include="Areas/SubExamPlace/Views/Web.config">
+      <publishTime>11/21/2014 09:08:39</publishTime>
+    </File>
+    <File Include="Aspx/DemandEdit.aspx">
+      <publishTime>11/16/2014 16:40:46</publishTime>
+    </File>
+    <File Include="Aspx/DemandSubmit.aspx">
+      <publishTime>09/10/2014 15:14:03</publishTime>
+    </File>
+    <File Include="Aspx/NewsSubmit.aspx">
+      <publishTime>09/10/2014 15:24:49</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/04/2014 14:50:52</publishTime>
+    </File>
+    <File Include="bin/CKEditor.NET.dll">
+      <publishTime>12/28/2012 09:23:18</publishTime>
+    </File>
+    <File Include="bin/CKFinder.dll">
+      <publishTime>12/28/2012 09:23:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/04/2014 14:50:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>09/04/2014 14:50:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>09/04/2014 14:50:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/04/2014 14:50:45</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>09/04/2014 14:50:47</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>03/08/2012 11:21:44</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/04/2014 14:50:46</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>03/25/2013 12:07:08</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>07/09/2013 11:04:48</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/04/2014 14:50:47</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>07/09/2013 11:04:48</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>09/04/2014 14:50:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/04/2014 14:50:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/04/2014 14:50:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.OData.dll">
+      <publishTime>09/04/2014 14:50:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Tracing.dll">
+      <publishTime>09/04/2014 14:50:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>09/04/2014 14:50:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/04/2014 14:50:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/04/2014 14:50:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>09/04/2014 14:50:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/04/2014 14:50:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/04/2014 14:50:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/04/2014 14:50:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/04/2014 14:50:46</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/04/2014 14:50:52</publishTime>
+    </File>
+    <File Include="bin/Windy.WebMVC.dll">
+      <publishTime>12/24/2014 22:12:41</publishTime>
+    </File>
+    <File Include="Content/css/public.css">
+      <publishTime>12/26/2014 14:42:50</publishTime>
+    </File>
+    <File Include="Content/html/bootstrap-js插件.html">
+      <publishTime>01/06/2015 16:46:38</publishTime>
+    </File>
+    <File Include="Content/html/HtmlPage1.html">
+      <publishTime>12/26/2014 15:05:20</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/04/2014 14:50:39</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/04/2014 15:21:50</publishTime>
+    </File>
+    <File Include="HtmlPage1.html">
+      <publishTime>09/11/2014 15:14:30</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/04/2014 14:50:55</publishTime>
+    </File>
+    <File Include="Views/Home/Default.cshtml">
+      <publishTime>12/26/2014 15:20:52</publishTime>
+    </File>
+    <File Include="Views/Home/HtmlPage1.html">
+      <publishTime>12/26/2014 15:05:20</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>12/26/2014 15:35:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/23/2014 08:44:27</publishTime>
+    </File>
+    <File Include="参考/css.css">
+      <publishTime>12/24/2014 16:27:03</publishTime>
+    </File>
+    <File Include="参考/css2.css">
+      <publishTime>12/24/2014 16:12:55</publishTime>
+    </File>
+    <File Include="参考/images/Connect_logo_7.png">
+      <publishTime>12/24/2014 16:22:13</publishTime>
+    </File>
+    <File Include="参考/豆瓣登录.html">
+      <publishTime>12/24/2014 16:55:09</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

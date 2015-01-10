@@ -1,0 +1,212 @@
+﻿ @model Windy.WebMVC.Areas.Admin.AdminAreaRegistration
+@using Windy.Service.DAL;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    Employee employee = Session["CurrentEmployee"] as Employee;
+}
+
+<script type="text/javascript">
+    var _menus = {
+        "menus": [
+         {
+             "menuid": "1", "icon": "icon-sys", "menuname": "管理员系统",
+             "menus": [{ "menuid": "11", "menuname": "新闻资讯", "icon": "icon-nav", "url": "/admin/news/NewsGridList.aspx" },
+                     { "menuid": "12", "menuname": "组织机构管理", "icon": "icon-add", "url": "/admin/orgnization/OrgnizationMap.aspx" },
+                     { "menuid": "13", "menuname": "员工管理", "icon": "icon-users", "url": "/admin/employee/EmployeeManage.aspx" },
+                     { "menuid": "14", "menuname": "考点管理", "icon": "icon-role", "url": "/admin/examplace/ExamPlaceMap.aspx" },
+                     { "menuid": "15", "menuname": "会员管理", "icon": "icon-set", "url": "/admin/users/UsersManage.aspx" },
+                     { "menuid": "16", "menuname": "菜单管理", "icon": "icon-set", "url": "/admin/menu/MenuManage.aspx" }]
+         }, {
+             "menuid": "2", "icon": "icon-sys", "menuname": "管理员系统2",
+             "menus": [{ "menuid": "21", "menuname": "链接管理", "icon": "icon-nav", "url": "/SystemManage/HrefInfo.aspx" },
+                     { "menuid": "22", "menuname": "文章管理", "icon": "icon-add", "url": "/SystemManage/ArticleManage.aspx" },
+                     { "menuid": "23", "menuname": "管理员管理", "icon": "icon-users", "url": "/SystemManage/AdminInfo.aspx" },
+                     { "menuid": "24", "menuname": "博客用户管理(添加修改功能有BUG)", "icon": "icon-role", "url": "/SystemManage/BlogUserManage.aspx" },
+                     { "menuid": "25", "menuname": "回复管理", "icon": "icon-set", "url": "/SystemManage/RevertList.aspx" }]
+         }
+        ]
+    };
+
+    //设置登录窗口
+    function openPwd() {
+        $('#w').window({
+            title: '修改密码',
+            width: 300,
+            modal: true,
+            shadow: true,
+            closed: true,
+            height: 160,
+            resizable: false
+        });
+    }
+
+    //初始化左侧
+    function InitLeftMenu1() {
+
+        $(".easyui-accordion1").empty();
+        var menulist = "";
+        //加载菜单数据
+        $.post("/Admin/Home/GetEmpMenu", function (data) {
+           
+            if (data == "")
+                return;
+            var _menus = eval("(" + data + ")"); //转换为json对象
+            //   console.info(dataObj);
+            //console.info(dataObj);
+            $.each(_menus.menus, function (i, n) {
+                menulist += '<div title="' + n.menuname + '"  icon="' + n.icon + '" style="overflow:auto;">';
+                menulist += '<ul>';
+                if (n.menus != undefined) {
+                    $.each(n.menus, function (j, o) {
+                        menulist += '<li><div><a ref="' + o.menuid + '" href="#" rel="' + o.url + '" ><span class="icon ' + o.icon + '" >&nbsp;</span><span class="nav">' + o.menuname + '</span></a></div></li> ';
+                    })
+                }
+                menulist += '</ul></div>';
+            })
+
+            $(".easyui-accordion1").append(menulist);
+
+            $('.easyui-accordion1 li a').click(function () {
+                var tabTitle = $(this).children('.nav').text();
+
+                var url = $(this).attr("rel");
+                var menuid = $(this).attr("ref");
+                var icon = getIcon(menuid, icon);
+
+                addTab(tabTitle, url, icon);
+                $('.easyui-accordion1 li div').removeClass("selected");
+                $(this).parent().addClass("selected");
+            }).hover(function () {
+                $(this).parent().addClass("hover");
+            }, function () {
+                $(this).parent().removeClass("hover");
+            });
+
+            //导航菜单绑定初始化
+            $(".easyui-accordion1").accordion();
+        });
+
+
+    }
+
+    //关闭登录窗口
+    function closePwd() {
+        $('#w').window('close');
+        $('#txtNewPass').val('');
+        $('#txtRePass').val('');
+    }
+
+    //修改密码
+    function serverLogin() {
+
+        var $newpass = $('#txtNewPass');
+        var $rePass = $('#txtRePass');
+
+        if ($newpass.val() == '') {
+            msgShow('系统提示', '请输入密码！', 'warning');
+            return false;
+        }
+        if ($rePass.val() == '') {
+            msgShow('系统提示', '请再一次输入密码！', 'warning');
+            return false;
+        }
+
+        if ($newpass.val() != $rePass.val()) {
+            msgShow('系统提示', '两次密码不一至！请重新输入', 'warning');
+            return false;
+        }
+
+        $.post('/ajax/EditPassword.ashx', { "username": $("#ipt_UserName").val(), "newpass": $newpass.val() },
+
+         function (msg) {
+             msgShow('系统提示', '恭喜，密码修改成功！<br>您的新密码为：' + msg, 'info');
+             $newpass.val('');
+             $rePass.val('');
+             closePwd();
+         });
+    }
+
+    $(function () {
+        openPwd();
+        InitLeftMenu1();
+
+        $('#editpass').click(function () {
+            $('#w').window('open');
+        });
+
+        $('#btnEp').click(function () {
+            serverLogin();
+        });
+
+        $('#btnCancel').click(function () { closePwd(); })
+
+        $('#loginOut').click(function () {
+            $.messager.confirm('系统提示', '您确定要退出本次登录吗?', function (r) {
+
+                if (r) {
+                    location.href = '/Admin/Home/Login';
+                }
+            });
+        })
+    });
+</script>
+<body class="easyui-layout" data-options="fit:true,scroll:'no'">
+    <!-- 头部样式 start -->
+    <div class="header">
+        <div class="header-nav">
+            <div class="logo"></div>
+
+            <ul class="toolbar"></ul>
+        </div>
+    </div>
+    <!-- 头部样式 end -->
+    <div region="north" split="true" border="false" style="overflow: hidden; height: 36px;
+        background:  repeat-x center 100%;
+        line-height: 36px; color: #fff; font-family: Verdana, 微软雅黑,黑体">
+        <span style="float: right; padding-right: 20px;" class="head">
+            欢迎
+            您好，@employee.Name
+            <a href="javascript:void()" style="cursor: pointer; text-decoration: none;" id="editpass">
+                修改密码
+            </a> <a href="javascript:void()" id="loginOut" style="cursor: pointer; text-decoration: none;">
+                安全退出
+            </a>
+        </span> <span style="padding-left: 10px; font-size: 16px;">
+            <img src="~/Content/images/blocks.gif" width="20" height="20" align="absmiddle" />
+            状元乐后台管理
+        </span>
+    </div>
+    <div data-options="region:'west',split:true,title:'导航菜单'" style="width: 170px;">
+        <div class="easyui-accordion1" fit="true" border="false">
+            <!--  导航内容 -->
+        </div>
+    </div>
+    <div data-options="region:'south',border:false" style="height: 23px;">
+        <div class="footer">@@copyright windy.studio</div>
+    </div>
+    <div data-options="region:'center'">
+        <div id="tabs" class="easyui-tabs" data-options="tools:'#tab-tools',fit:true,border:false">
+           
+            <div title="技术支持" data-options="iconCls:'icon-house'" style="padding: 10px;">
+               <iframe scrolling="auto" frameborder="0" src="../Aspx/DemandSubmit.aspx" style="width:100%;height:100%;"></iframe>
+            </div>
+        </div>
+        <div id="tab-tools">
+            <a href="javascript:void(0)" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-add'" onclick="addTab()"></a>
+            <a href="javascript:void(0)" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-remove'" onclick="removeTab()"></a>
+        </div>
+    </div>
+    <div id="mm" class="easyui-menu" style="width: 150px;">
+        <div id="refresh" data-options="iconCls:'icon-arrow_refresh'">刷新</div>
+        <div class="menu-sep"></div>
+        <div id="close">关闭</div>
+        <div id="closeall">全部关闭</div>
+        <div id="closeother">除此之外全部关闭</div>
+        <div class="menu-sep"></div>
+        <div id="closeright">当前页右侧全部关闭</div>
+        <div id="closeleft">当前页左侧全部关闭</div>
+        <div class="menu-sep"></div>
+        <div id="exit">退出</div>
+    </div>
+</body>

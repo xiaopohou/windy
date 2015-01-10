@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/themes/first/login.css" rel="stylesheet" />
+<div class="container">
+
+    <div class="clearfix">
+        @*<div class="logreg-banner">
+            <a id="show_qr" class="logreg-btn-qr" onclick="_gaq.push(['_trackEvent','show_qr','show'])">
+                <i class="icon-logreg-download"></i>
+                手机客户端<br>
+                <small>iPhone Android</small>
+            </a>
+        </div>
+        <div id="modal_qr" class="modal-qr modal hide fade" tabindex="-1" role="dialog" aria-labelledby="iphoneDownloadLabel" aria-hidden="true">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                <h3>使用手机扫描安装</h3>
+            </div>
+            <div class="modal-body">
+                <img src="/images/forward/global/logreg-qrCode.png" alt="QR Code">
+            </div>
+        </div>*@
+
+        <div class="logreg-box">
+            <nav class="clearfix">
+                <a class="logreg-tab-item active" href="/login">会员登录</a>
+                <a class="logreg-tab-item" href="/register">免费注册</a>
+            </nav>
+            <div class="logreg-form">
+                <form id="login_form" name="login" method="post" action="/login" novalidate="novalidate">
+                    <div class="relative">
+                        <label for="login_username"><span class="required-mark">*</span>用户名/Email</label>
+                        <input type="text" id="login_username" class="logreg-input" name="signin[username]">
+                    </div>
+
+                    <div class="relative">
+                        <label for="login_password"><span class="required-mark">*</span>密码</label>
+                        <input type="password" id="login_password" class="logreg-input" name="signin[password]">
+                    </div>
+
+                    <div class="captcha">
+                        <img src="/login_captcha">
+                        <label for="login_phrase"><span class="required-mark">*</span>验证码</label>
+                        <input type="text" id="login_phrase" class="logreg-input" name="signin[phrase]">
+                    </div>
+
+                    <div class="clearfix">
+                        <label class="logreg-checkbox">
+                            <input type="checkbox" name="signin[remember]" defaultvalue="on" checked="true">
+                            记住我
+                        </label>
+                        <a href="/forget-password">忘记密码？</a>
+                        <button id="login_btn" class="btn btn-yellow logreg-btn" type="submit" data-loading="登录中…"> 登录</button>
+                    </div>
+
+                    <div class="logreg-oauth">
+                        其他方式：
+                        <a class="logreg-olink" href="/weibo/auth"><img id="wb_login_image" src="https://static.ele.me/images/forward/sina.gif" title="微博连接" alt="" border="0"></a>
+                        <a class="logreg-olink" href="/renren/auth"><img id="xn_login_image" src="https://static.ele.me/images/forward/renren.gif" title="人人连接" alt="" border="0"></a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
