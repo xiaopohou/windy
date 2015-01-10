@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GBK"?>
+<SystemConfig>
+  <key name="Heren.NurDoc.Frame.MainFrame.Maximized" value="False" />
+  <key name="Heren.NurDoc.Frame.MainFrame.Left" value="87" />
+  <key name="Heren.NurDoc.Frame.MainFrame.Top" value="0" />
+  <key name="Heren.NurDoc.Frame.MainFrame.Width" value="986" />
+  <key name="Heren.NurDoc.Frame.MainFrame.Height" value="738" />
+  <key name="NdsDbType" value="/57P5xDgtPs4NFITMS9jOg==" />
+  <key name="NdsDbProvider" value="oVRsfhoQBUC1uW4vwmPeXQsUTJnkLt556cRe0+2/OjKqz27woXRQmcRmQQ9HWF+R" />
+  <key name="NdsDbConnString" value="hxn/1TnwgWSwAJQ9tUdH9mu6F+60OLLrmwuIdm72fw2/0atmJwQLtwFLdlAR5bZrzsO71ox4xvAbj3J2/vFkj4ScMARAGu3RwRnXtCZYcSViffQDmDThQ8WLEL9z56kWgaz0bBnApq5opAUPzmlNENrTJgjcBdJdgHtHTdN0wVdZmRtZ0iB5OUBXhAk0hDYndCDrMuVXg03/5TKP7jL8jQ==" />
+  <key name="Heren.NurDoc.DefaultLoginUser" value="LYF" />
+  <key name="Heren.NurDoc.Frame.MainFrame.Maximized" value="True" />
+  <key name="Heren.NurDoc.Config.MainForm.Maximized" value="False" />
+  <key name="Heren.NurDoc.Current.Verion" value="NurDocSys v1.1.9.0" />
+  <key name="Heren.NurDoc.Whiteboard.Location.CFL" value="0" />
+  <key name="Heren.NurDoc.Readme.CFL" value="20140307084130" />
+  <key name="Heren.NurDoc.BedView.PatientView.CFL" value="1" />
+  <key name="Heren.NurDoc.Config.Templet.ScriptTestForm.Maximized" value="True" />
+  <key name="Heren.NurDoc.Utilities.Templet.TextTempletForm.Maximized" value="False" />
+  <key name="Heren.NurDoc.Utilities.Templet.TextTempletForm.Left" value="282" />
+  <key name="Heren.NurDoc.Utilities.Templet.TextTempletForm.Top" value="101" />
+  <key name="Heren.NurDoc.Utilities.Import.OrdersImportForm.Maximized" value="False" />
+  <key name="Heren.NurDoc.PatPage.NurRec.RecordEditForm.Left" value="2" />
+  <key name="Heren.NurDoc.PatPage.NurRec.RecordEditForm.Top" value="2" />
+  <key name="Heren.NurDoc.PatPage.NurRec.RecordEditForm.Width" value="1339" />
+  <key name="Heren.NurDoc.PatPage.NurRec.RecordEditForm.Height" value="563" />
+  <key name="Heren.NurDoc.Utilities.Templet.WordTempForm.Left" value="-8" />
+  <key name="Heren.NurDoc.Utilities.Templet.WordTempForm.Top" value="-7" />
+  <key name="Heren.NurDoc.Utilities.Templet.WordTempForm.Width" value="1382" />
+  <key name="Heren.NurDoc.Utilities.Templet.WordTempForm.Height" value="754" />
+  <key name="Heren.NurDoc.Utilities.Templet.WordTempForm.Maximized" value="True" />
+  <key name="NdsShiftEditSplit2Distance" value="290" />
+  <key name="NdsShiftEditItemWidth" value="60" />
+  <key name="NdsShiftEditBedCodeWidth" value="40" />
+  <key name="NdsShiftEditNameWidth" value="80" />
+  <key name="Heren.NurDoc.Config.Templet.ScriptTestForm.Width" value="1067" />
+  <key name="Heren.NurDoc.Config.Templet.ScriptTestForm.Height" value="524" />
+  <key name="Heren.NurDoc.Config.Templet.ScriptTestForm.Left" value="200" />
+  <key name="Heren.NurDoc.Config.Templet.ScriptTestForm.Top" value="112" />
+  <key name="Heren.NurDoc.Config.Report.ScriptTestForm.Maximized" value="True" />
+  <key name="Heren.NurDoc.Whiteboard.Location.LYF" value="0" />
+  <key name="Heren.NurDoc.Readme.LYF" value="20140307084130" />
+  <key name="Heren.NurDoc.BedView.PatientView.LYF" value="1" />
+  <key name="Heren.NurDoc.Utilities.Import.OrdersImportForm.Left" value="144" />
+  <key name="Heren.NurDoc.Utilities.Import.OrdersImportForm.Top" value="49" />
+  <key name="Heren.NurDoc.Whiteboard.Location.CJUAN" value="0" />
+  <key name="Heren.NurDoc.Readme.CJUAN" value="20140307084130" />
+  <key name="Heren.NurDoc.BedView.PatientView.CJUAN" value="1" />
+</SystemConfig>

@@ -1,0 +1,8 @@
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Debug\Windy.Common.Libraries.dll
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Debug\Windy.Common.Libraries.pdb
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\obj\Debug\Windy.Common.Libraries.dll
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\obj\Debug\Windy.Common.Libraries.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Debug\Windy.Common.Libraries.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Debug\Windy.Common.Libraries.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\obj\Debug\Windy.Common.Libraries.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\obj\Debug\Windy.Common.Libraries.pdb

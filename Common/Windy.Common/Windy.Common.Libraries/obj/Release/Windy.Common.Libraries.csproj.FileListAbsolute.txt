@@ -1,0 +1,11 @@
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\bin\Release\Windy.Common.Libraries.dll
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\bin\Release\Windy.Common.Libraries.pdb
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\obj\Release\Windy.Common.Libraries.dll
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\obj\Release\Windy.Common.Libraries.pdb
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\obj\Release\Windy.Common.Libraries.csprojResolveAssemblyReference.cache
+D:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\bin\Release\Windy.Common.Libraries.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\bin\Release\Windy.Common.Libraries.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\bin\Release\MySql.Data.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\bin\Release\NPOI.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\obj\Release\Windy.Common.Libraries.dll
+D:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\obj\Release\Windy.Common.Libraries.pdb

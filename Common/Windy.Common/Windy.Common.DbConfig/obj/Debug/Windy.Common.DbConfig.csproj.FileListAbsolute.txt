@@ -1,0 +1,8 @@
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.DbConfig\obj\Debug\Windy.Common.DbConfig.csprojResolveAssemblyReference.cache
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.DbConfig\obj\Debug\Windy.Common.DbConfig.MainForm.resources
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.DbConfig\obj\Debug\Windy.Common.DbConfig.Properties.Resources.resources
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.DbConfig\obj\Debug\Windy.Common.DbConfig.csproj.GenerateResource.Cache
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Debug\DbConfig.exe
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Debug\DbConfig.pdb
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.DbConfig\obj\Debug\DbConfig.exe
+E:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.DbConfig\obj\Debug\DbConfig.pdb
