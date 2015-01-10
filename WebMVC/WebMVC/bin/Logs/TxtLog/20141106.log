@@ -1,0 +1,11 @@
+----------------------------------------------
+时间：2014/11/6 22:10:26
+类型：Error
+基本信息：方法DocumentAccess.GetEmpMenuByMenuID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,MenuID FROM EmpMenu WHERE EmpID = 97;
+其他信息：
+    未查询到记录
+例外信息：null
+
+

@@ -1,0 +1,90 @@
+----------------------------------------------
+时间：2014/11/21 16:37:40
+类型：Error
+基本信息：方法Int16 GetUsersByID(System.String, Windy.Service.DAL.Users ByRef)执行失败!
+输入参数：
+    param=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE ID = UserInfo;
+    db-info=;
+    ftp-info=;
+其他信息：
+    SQL语句执行失败!
+例外信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'UserInfo' in 'where clause'
+   在 Windy.Common.Libraries.DbAccess.OperateContext.GenericExceptionHandler(Exception ex) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 423
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType, DbParameter[]& parameters) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 351
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 337
+   在 Windy.Common.Libraries.DbAccess.DataAccess.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\DataAccess.cs:行号 274
+   在 Windy.Service.DAL.zyldingfang.UsersAccess.GetUsersByID(String ID, Users& item) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\zyldingfang\UsersAccess.cs:行号 265
+
+
+----------------------------------------------
+时间：2014/11/21 16:38:04
+类型：Error
+基本信息：方法Int16 GetUsersByID(System.String, Windy.Service.DAL.Users ByRef)执行失败!
+输入参数：
+    param=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE ID = UserInfo;
+    db-info=;
+    ftp-info=;
+其他信息：
+    SQL语句执行失败!
+例外信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'UserInfo' in 'where clause'
+   在 Windy.Common.Libraries.DbAccess.OperateContext.GenericExceptionHandler(Exception ex) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 423
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType, DbParameter[]& parameters) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 351
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 337
+   在 Windy.Common.Libraries.DbAccess.DataAccess.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\DataAccess.cs:行号 274
+   在 Windy.Service.DAL.zyldingfang.UsersAccess.GetUsersByID(String ID, Users& item) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\zyldingfang\UsersAccess.cs:行号 265
+
+
+----------------------------------------------
+时间：2014/11/21 16:41:57
+类型：Error
+基本信息：方法Int16 GetUsersByID(System.String, Windy.Service.DAL.Users ByRef)执行失败!
+输入参数：
+    param=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE ID = UserInfo;
+    db-info=;
+    ftp-info=;
+其他信息：
+    SQL语句执行失败!
+例外信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'UserInfo' in 'where clause'
+   在 Windy.Common.Libraries.DbAccess.OperateContext.GenericExceptionHandler(Exception ex) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 423
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType, DbParameter[]& parameters) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 351
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 337
+   在 Windy.Common.Libraries.DbAccess.DataAccess.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\DataAccess.cs:行号 274
+   在 Windy.Service.DAL.zyldingfang.UsersAccess.GetUsersByID(String ID, Users& item) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\zyldingfang\UsersAccess.cs:行号 265
+
+
+----------------------------------------------
+时间：2014/11/21 16:42:13
+类型：Error
+基本信息：方法Int16 GetUsersByID(System.String, Windy.Service.DAL.Users ByRef)执行失败!
+输入参数：
+    param=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE ID = UserInfo;
+    db-info=;
+    ftp-info=;
+其他信息：
+    SQL语句执行失败!
+例外信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'UserInfo' in 'where clause'
+   在 Windy.Common.Libraries.DbAccess.OperateContext.GenericExceptionHandler(Exception ex) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 423
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType, DbParameter[]& parameters) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 351
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 337
+   在 Windy.Common.Libraries.DbAccess.DataAccess.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\DataAccess.cs:行号 274
+   在 Windy.Service.DAL.zyldingfang.UsersAccess.GetUsersByID(String ID, Users& item) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\zyldingfang\UsersAccess.cs:行号 265
+
+
+----------------------------------------------
+时间：2014/11/21 16:42:39
+类型：Error
+基本信息：方法Int16 GetUsersByID(System.String, Windy.Service.DAL.Users ByRef)执行失败!
+输入参数：
+    param=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE ID = UserInfo;
+    db-info=;
+    ftp-info=;
+其他信息：
+    SQL语句执行失败!
+例外信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'UserInfo' in 'where clause'
+   在 Windy.Common.Libraries.DbAccess.OperateContext.GenericExceptionHandler(Exception ex) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 423
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType, DbParameter[]& parameters) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 351
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 337
+   在 Windy.Common.Libraries.DbAccess.DataAccess.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\DataAccess.cs:行号 274
+   在 Windy.Service.DAL.zyldingfang.UsersAccess.GetUsersByID(String ID, Users& item) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\zyldingfang\UsersAccess.cs:行号 265
+
+

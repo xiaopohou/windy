@@ -1,0 +1,1489 @@
+----------------------------------------------
+时间：2014/9/10 8:59:32
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (44);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 8:59:44
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (29);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 8:59:51
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (29);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 8:59:59
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (29);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 9:00:13
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (30);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 9:00:44
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (35);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 9:02:03
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (35);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 9:02:37
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (35);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 9:02:53
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (44);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 9:03:05
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (44);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 9:18:14
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (36);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 9:18:28
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE OrgID in (92);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 9:54:10
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE EmpID in( 94);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 9:54:36
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE EmpID in( 93);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:04
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135542';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:04
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135545';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:04
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135543';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:05
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135250';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:05
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135723';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:05
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135632';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:06
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135259';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:06
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135569';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:06
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135606';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:06
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135538';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:07
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067133997';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:07
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135020';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:07
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135126';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:07
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134524';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:08
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134862';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:08
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135852';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:08
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135853';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:08
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135790';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:09
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135813';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:09
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135683';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:09
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135840';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:10
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136183';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:10
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136203';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:10
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18510012667';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:10
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135149';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:11
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135150';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:11
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134280';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:11
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136157';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:11
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135958';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:12
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136077';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:12
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136054';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:12
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136409';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:13
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134245';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:13
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135134';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:13
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134980';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:14
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15068705123';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:14
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15068706835';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:14
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136329';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:14
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136429';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:15
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136158';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:15
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136190';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:15
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136177';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:15
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136218';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:16
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134944';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:16
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136100';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:16
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136194';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:16
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134982';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:17
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134711';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:17
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134885';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:17
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134339';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:17
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134363';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:18
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067133992';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:18
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067133984';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:18
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067136125';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:19
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135939';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:19
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134861';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:19
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135167';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:19
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18072941626';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:20
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135129';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:20
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135197';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:20
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135970';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:20
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135515';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:21
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134519';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:21
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134367';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:21
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135480';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:22
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18767158897';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:22
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18768144911';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:22
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135435';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:23
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135183';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:23
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135236';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:23
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135363';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:23
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134513';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:24
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067120418';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:24
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134046';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:24
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067133971';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:24
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067135135';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:25
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15867107497';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:25
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067133907';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:25
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15067134142';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:25
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '15868171756';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:26
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18657559866';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:26
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18268322562';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:26
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18268325325';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:27
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18268326003';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:27
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18268325698';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:27
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18268322963';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:28
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18268325655';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:29
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18268323908';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:29
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732250704';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:29
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732250744';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:30
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18767157408';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:30
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732251726';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:31
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732251940';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:31
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732250917';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:31
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732253151';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:31
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732253159';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:32
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732253281';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:32
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732253136';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:32
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '18658260100';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:32
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732252734';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:33
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732252783';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:33
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732252807';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:33
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732214911';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:34
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732214970';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:34
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732214964';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 11:28:34
+类型：Error
+基本信息：方法DocumentAccess.GetDocInfoBySetID执行失败!
+输入参数：
+    szSQL=SELECT ID,Name,ExamSchool,Sequences,Tel,Baks,Pwd,PayMoney,ExamPlace,Room,Hotel,HotelExpense,MoneyBack,EmployeeID,Gender,Template,PayPlace,ExceptRoomie,Status,School FROM Users WHERE Tel = '13732214893';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 13:03:45
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE EmpID in( 92);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 13:03:56
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE EmpID in( 84);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 13:04:09
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE EmpID in( 84);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 13:11:15
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE EmpID in( 87);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 13:15:48
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE EmpID in( 86);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 13:36:10
+类型：Error
+基本信息：方法DocumentAccess.GetEmpMenuByMenuID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,MenuID FROM EmpMenu WHERE EmpID = 87;
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 13:36:51
+类型：Error
+基本信息：方法DocumentAccess.GetEmpMenuByMenuID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,MenuID FROM EmpMenu WHERE EmpID = 87;
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 13:39:32
+类型：Error
+基本信息：方法EmployeeAccess.GetEmployeeByName执行失败!
+输入参数：
+    szSQL=SELECT ID,EmpNo,Name,OrgName,Pwd,RoleType,Tel FROM Employee WHERE EmpNo = 'admin' and Pwd='111111';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 13:39:42
+类型：Error
+基本信息：方法EmployeeAccess.GetEmployeeByName执行失败!
+输入参数：
+    szSQL=SELECT ID,EmpNo,Name,OrgName,Pwd,RoleType,Tel FROM Employee WHERE EmpNo = 'admin' and Pwd='111111';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 13:39:51
+类型：Error
+基本信息：方法EmployeeAccess.GetEmployeeByName执行失败!
+输入参数：
+    szSQL=SELECT ID,EmpNo,Name,OrgName,Pwd,RoleType,Tel FROM Employee WHERE EmpNo = 'admin' and Pwd='111111';
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 15:25:10
+类型：Error
+基本信息：方法GlobalMethods.WriteFileText执行失败!
+输入参数：
+    szFilePath=D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\WebMVC\/temp/news/News_201409101525103700.html;
+其他信息：
+    文本内容写入文件失败!
+例外信息：System.IO.DirectoryNotFoundException: 未能找到路径“D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\WebMVC\temp\news\News_201409101525103700.html”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   在 System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   在 Windy.Common.Libraries.GlobalMethods.IO.WriteFileText(String szFilePath, String szTextData, Encoding encoding) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\Methods\IO.cs:行号 307
+
+
+----------------------------------------------
+时间：2014/9/10 17:32:45
+类型：Error
+基本信息：方法Int16 Exsit(System.String, System.String, Windy.Service.DAL.Employee ByRef)执行失败!
+输入参数：
+    param=SELECT ID,EmpNo,Name,OrgName,Pwd,RoleType,Tel FROM Employee WHERE EmpNo = 'admin' and Pwd='111111';
+    db-info=;
+    ftp-info=;
+其他信息：
+    SQL语句执行失败!
+例外信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Windy.Common.Libraries.DbAccess.OperateContext.GenericExceptionHandler(Exception ex) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 423
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType, DbParameter[]& parameters) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 351
+   在 Windy.Common.Libraries.DbAccess.OperateContext.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\OperateContext.cs:行号 337
+   在 Windy.Common.Libraries.DbAccess.DataAccess.ExecuteReader(String sql, CommandType cmdType) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\DbAccess\DataAccess.cs:行号 274
+   在 Windy.Service.DAL.zyldingfang.EmployeeAccess.Exsit(String szName, String szPassWard, Employee& employee) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.DAL\zyldingfang\EmployeeAccess.cs:行号 430
+
+
+----------------------------------------------
+时间：2014/9/10 17:34:46
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE EmpID in( 90);
+其他信息：
+    未查询到记录
+例外信息：null
+
+
+----------------------------------------------
+时间：2014/9/10 17:35:09
+类型：Error
+基本信息：方法DocumentAccess.GetEmpOrgByOrgID执行失败!
+输入参数：
+    szSQL=SELECT EmpID,OrgID FROM EmpOrg WHERE EmpID in( 72);
+其他信息：
+    未查询到记录
+例外信息：null
+
+

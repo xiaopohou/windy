@@ -1,0 +1,102 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    background-color: #176F87;
+}
+
+#main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -180px;
+    margin-left: -317px;
+}
+
+#top {
+    height: 186px;
+    width: 635px;
+}
+
+#top_one {
+    background: url(Images/login/l_01.gif);
+    width: 49px;
+    height: 186px;
+    float: left;
+}
+
+#top_two {
+    background: url(Images/login/l_02.gif);
+    width: 179px;
+    height: 186px;
+    float: left;
+}
+
+#top_three {
+    background: url(Images/login/l_03.gif);
+    width: 352px;
+    height: 186px;
+    float: left;
+}
+
+#top_four {
+    background: url(Images/login/l_04.gif);
+    width: 55px;
+    height: 186px;
+    float: left;
+}
+
+#bottom {
+    clear: both;
+    height: 177px;
+    width: 635px;
+}
+
+#bottom_one {
+    background: url(Images/login/l_05.gif);
+    width: 50px;
+    height: 177px;
+    float: left;
+}
+
+#bottom_two {
+    background: url(Images/login/l_06.gif);
+    width: 178px;
+    height: 177px;
+    float: left;
+}
+
+#bottom_three {
+    background: url(Images/login/l_09.gif);
+    width: 352px;
+    height: 177px;
+    float: left;
+}
+
+#botton_four {
+    background: url(Images/login/l_08.gif);
+    width: 55px;
+    height: 177px;
+    float: left;
+}
+
+.Logintable {
+    margin-top: 40px;
+    margin-left: 66px;
+}
+
+.loginspan {
+    color: #8CC5e3;
+    font-weight: bold;
+}
+
+.loginButton {
+    font-size: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 36px;
+    
+    cursor: hand;
+    background-image : url(/Images/login/1_11.gif);
+}

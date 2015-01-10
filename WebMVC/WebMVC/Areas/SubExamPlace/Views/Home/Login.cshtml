@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Areas/SubExamPlace/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .loginspan {
+        color: #8CC5e3;
+        font-weight: bold;
+        width: 40px;
+    }
+
+    .loginButton {
+        font-size: 0px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 86px;
+        height: 36px;
+        cursor: hand;
+        background-image: url(/Images/login/1_11.gif);
+    }
+</style>
+@model Windy.Service.DAL.Users
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div class="lanmu_box_style1_right" id="sublanmu_style1_right">
+        <div style="width:250px;">
+            <div id="div_tel" style="text-align:center;margin:10px;">
+                <span class="loginspan">手机号:</span>
+                @Html.EditorFor(model => model.Tel)
+            </div>
+
+            <div id="div_pwd" style="text-align: center; margin: 10px;">
+                <span class="loginspan">密&nbsp;&nbsp; 码:</span>
+                @Html.PasswordFor(model => model.PassWord)
+            </div>
+            <div id="div_btnlogin" style="text-align: center; margin: 10px;">
+                <input type="image" src="~/Content/Images/login/1_11.gif" value="登陆" /> <span style="font-size:small;color:red; padding-top:10px;">@Html.ValidationMessage("Message") </span>
+            </div>
+        </div>
+        <div style="float:right;">
+            <p style="text-indent:2em;font-size:14px; font-family:'Times New Roman';">
+                亲们，日盼夜盼，既不想他来有想早点结束的日子明日终于来临了，明日是勇士们出发的日子，状元乐在此为亲们送行了。所谓兵马未行，粮草先动，在前方的战场状元乐已为您做好了后勤准备，接下来就看各位将军们的驰骋了！
+                
+            </p>
+            <p style="text-indent: 2em; font-size: 14px;">明日个别高校的车次接送安排在官网中都已经发布，请将军们务必自己查看，准时准点到达指定作战位置，除此在出发前最好自己在查看下自己酒店的情况以及到考点的路线等等，所谓好的准备，成功一半么。还有哦，亲们的作战工具不要忘记了：笔、准考证、身份证、纸等等，这个工具没了可不能杀敌了，最后状元乐全体工作人员预祝您金榜题名，状元归！一路来感谢对我们的理解与配合，谢谢</p> 
+        </div>
+    </div>
+   
+}

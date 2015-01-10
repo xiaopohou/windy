@@ -1,0 +1,11 @@
+----------------------------------------------
+时间：2014/12/18 15:28:55
+类型：Error
+基本信息：方法EmployeeAccess.GetEmployeeByName执行失败!
+输入参数：
+    szSQL=SELECT ID,EmpNo,Name,OrgName,Pwd,RoleType,Tel FROM Employee WHERE EmpNo = 'admin' and Pwd='1';
+其他信息：
+    未查询到记录
+例外信息：null
+
+

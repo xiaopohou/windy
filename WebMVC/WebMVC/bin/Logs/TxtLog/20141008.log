@@ -1,0 +1,32 @@
+----------------------------------------------
+时间：2014/10/8 16:50:38
+类型：Error
+基本信息：方法UsersService.Import执行失败!
+输入参数：
+    param=;
+    db-info=;
+    ftp-info=;
+其他信息：
+    
+例外信息：System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Windy.Common.Libraries.ExcelRow.GetString(String colunmName) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\ExcelHelper.cs:行号 49
+   在 Windy.Service.Data.zyldingfang.UsersService.Import(String filePath, String szTemplateValue) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\zyldingfang\UsersService.cs:行号 302
+
+
+----------------------------------------------
+时间：2014/10/8 16:51:41
+类型：Error
+基本信息：方法UsersService.Import执行失败!
+输入参数：
+    param=;
+    db-info=;
+    ftp-info=;
+其他信息：
+    
+例外信息：System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Windy.Common.Libraries.ExcelRow.GetString(String colunmName) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Common\Windy.Common\Windy.Common.Libraries\ExcelHelper.cs:行号 49
+   在 Windy.Service.Data.zyldingfang.UsersService.Import(String filePath, String szTemplateValue) 位置 d:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\zyldingfang\UsersService.cs:行号 302
+
+

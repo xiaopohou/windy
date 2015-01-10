@@ -1,0 +1,115 @@
+﻿@{
+    ViewBag.Title = "examplace";
+    Layout = "~/Areas/SubExamPlace/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        GetByJquery();
+        $("#ddlProvince").change(function () { GetCity() });
+        $("#ddlCity").change(function () { GetDistrict() });
+        
+        $("#chkOther").click(function () {
+          
+            if ($("#chkOther").attr("checked") == true) {
+                $("#Place").show();
+            }else{
+                $("#Place").hide();
+        }
+        })
+    });
+
+    function GetByJquery() {
+
+        $("#ddlProvince").empty(); //清空省份SELECT控件
+        $("<option></option>")
+                    .val("")
+                    .text("请选择")
+                    .appendTo($("#ddlProvince"));
+        $.getJSON("GetProvinceList", function (data) {
+
+            $.each(data, function (i, item) {
+                $("<option></option>")
+                    .val(item["ID"])
+                    .text(item["PlaceName"])
+                    .appendTo($("#ddlProvince"));
+            });
+
+            GetCity();
+        });
+
+    }
+
+    function GetCity() {
+        $("#ddlCity").empty(); //清空城市SELECT控件
+        if ($("#ddlProvince").val() == "")
+            return;
+        var url = "GetCityList/" + $("#ddlProvince").val();
+        $("<option></option>")
+                      .val("")
+                      .text("请选择")
+                      .appendTo($("#ddlCity"));
+        $.getJSON(url, function (data) {
+            $.each(data, function (i, item) {
+                $("<option></option>")
+                    .val(item["ID"])
+                    .text(item["PlaceName"])
+                    .appendTo($("#ddlCity"));
+            });
+
+            GetDistrict();
+        });
+    }
+
+    function GetDistrict() {
+        $("#ddlSchool").empty(); //清空市区SELECT控件
+        if ($("#ddlCity").val() == "")
+            return;
+        var url = "GetSchoolList/" + $("#ddlCity").val();
+
+        $.getJSON(url, function (data) {
+            $.each(data, function (i, item) {
+                $("<option></option>")
+                    .val(item["PlaceName"])
+                    .text(item["PlaceName"])
+                    .appendTo($("#ddlSchool"));
+            });
+
+        });
+        $("<option></option>")
+                   .val("")
+                   .text("请选择")
+                   .appendTo($("#ddlSchool"));
+    }
+
+</script>
+<form id="form1" action="examplace" method="post">
+    <table style="text-align:left; width:500px;">
+        <tr>
+            <td>
+                省份：<select id="ddlProvince" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                城市：<select id="ddlCity" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                考点：<select id="ddlSchool" name="ddlSchool" form="form1" />
+               
+            </td>
+            
+        </tr>
+        <tr>
+            <td>找不到，其他考点手动输入：<input type="checkbox" id="chkOther" name="chkOther" form="form1" /> <input type="text"  hidden="hidden" name="Place" id="Place" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="提交考点" />
+            </td>
+        </tr>
+    </table>
+</form>
+

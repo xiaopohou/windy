@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+    <div>
+
+        @{
+    FileInfo[] fileInfo = ViewData["fileInfos"] as FileInfo[];
+    if (fileInfo != null)
+    {
+        foreach (var item in fileInfo)
+        {
+            <br />
+            <a style="font-size:large;" href="LogManage/detail/@item.Name.Replace(".log","")" target="_blank" >@item.Name</a>
+        }
+    }
+}
+    </div>
+
+</body>

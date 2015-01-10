@@ -1,0 +1,15 @@
+----------------------------------------------
+时间：2014/12/5 8:43:31
+类型：Error
+基本信息：方法UserController.QueryData执行失败!
+输入参数：
+    =;
+其他信息：
+    拼接考生json数据失败!
+例外信息：System.ArgumentException: 字符串的长度不能为零。
+参数名: oldValue
+   在 System.String.ReplaceInternal(String oldValue, String newValue)
+   在 System.String.Replace(String oldValue, String newValue)
+   在 Windy.WebMVC.Areas.Admin.Controllers.UsersController.QueryData()
+
+

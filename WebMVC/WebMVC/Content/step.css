@@ -1,0 +1,133 @@
+﻿.flowsteps {
+	height: 100%;
+	margin-bottom: 10px;
+
+    *zoom: 1;
+}
+
+    .flowsteps ol {
+        -webkit-padding-start:0px;
+        position: relative;
+        overflow: hidden;
+        *zoom: 1;
+        background: #fff;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        border: 1px solid #cacaca;
+        height: 30px;
+    }
+
+    .flowsteps .num3 li {
+        width: 33.33%;
+    }
+
+    .flowsteps .num4 li {
+        width: 25%;
+        *width: 24.9%;
+    }
+
+    .flowsteps li {
+        background-color: #fff;
+        float: left;
+        height: 100%;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: center;
+        color: #666;
+        font-family: Microsoft YaHei;
+        position: relative;
+    }
+
+    .flowsteps span {
+        background: url(http://img03.taobaocdn.com/tps/i3/T1IeTtXetoXXcJLCfp-24-153.png) no-repeat scroll 0 0 transparent;
+        _background: url(http://img01.taobaocdn.com/tps/i1/T1OpYIXXJlXXcyImfp-24-153.gif) no-repeat scroll 0 0;
+        display: block;
+        height: 23px;
+        line-height: 23px;
+        margin-left: 50px;
+        margin-top: 4px;
+        padding-left: 30px;
+        text-align: left;
+    }
+
+        .flowsteps span.first {
+            margin-left: 30px;
+        }
+
+        .flowsteps span.step2 {
+            background-position: 0 -24px;
+        }
+
+        .flowsteps span.step3 {
+            background-position: 0 -49px;
+        }
+
+        .flowsteps span.step4 {
+            background-position: 0 -74px;
+        }
+
+    .flowsteps a {
+        color: #f60;
+        text-decoration: underline;
+    }
+
+    .flowsteps .done {
+        background-color: #7FCBFE;
+        color: #fff;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+        .flowsteps .done span {
+            background-position: 0 -100px;
+        }
+
+    .flowsteps .current {
+        background-color: #0098FD;
+        font-weight: 700;
+        font-size: 16px;
+        background-position: 0 0;
+        color: #fff;
+    }
+
+        .flowsteps .current s, .flowsteps .done s {
+            background: url(http://img01.taobaocdn.com/tps/i1/T1.ALuXcFdXXc1AIvg-17-200.png) no-repeat scroll 0 -44px transparent;
+            _background: url(http://img04.taobaocdn.com/tps/i4/T1c0zIXeRiXXcPxsvg-17-200.gif) no-repeat scroll 0 -44px;
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 17px;
+        }
+
+    .flowsteps s {
+        background: url(http://img01.taobaocdn.com/tps/i1/T1.ALuXcFdXXc1AIvg-17-200.png) no-repeat scroll 0 -132px transparent;
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 17px;
+    }
+
+    .flowsteps .next s {
+        background: url(http://img01.taobaocdn.com/tps/i1/T1.ALuXcFdXXc1AIvg-17-200.png) no-repeat scroll 0 -1px transparent;
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 17px;
+    }
+
+    .flowsteps .next span {
+        font-weight: 400;
+    }
+
+    .flowsteps .current span {
+        background-position: 0 -100px;
+    }
