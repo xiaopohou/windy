@@ -1,0 +1,667 @@
+﻿@{
+    ViewBag.Title = "Default";
+}
+
+
+<script type="text/javascript">
+
+    $(function () {
+        $("#KinSlideshow").KinSlideshow({
+            moveStyle: "down",
+            intervalTime: 5,
+            mouseEvent: "mouseover",
+            titleFont: { TitleFont_size: 14, TitleFont_color: "#FF0000" }
+        });
+
+        navRoot = document.getElementById("main_nav");
+      
+        for (i = 0; i < navRoot.childNodes.length; i++) {
+           
+            node = navRoot.childNodes[i];
+            if (node.nodeName == "LI") {
+                node.onmouseover = function () {
+
+                    this.className += " over";
+                }
+
+                node.onmouseout = function () {
+
+                    this.className = this.className.replace(" over", "");
+                }
+            }
+        }
+
+    })
+</script>
+<body>
+    
+    
+    <div class="nav">
+        <p>&#160;</p>
+        <div class="nav_con">
+            <div class="nav_con">
+                <script type="text/javascript" src="http://www.qishiye.net/file/script/A29.js"></script>
+                <div class="search fr">
+                    <font size=3 color #ffffff><a href="http://51df.taobao.com" target="_blank" class="STYLE1">点这里>> 快速去淘宝网下单订房，价格优惠，安全可靠</a></font>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="menu_con">
+            <ul>
+                <li><a href="/" target="_blank" class="menu_check">首页</a></li>
+                <li class="ge_line"></li>
+                <li><a href="/ouzhou/zhinan/fangjiantuijian/" target="_blank">订房信息</a></li>
+                <li class="ge_line"></li>
+                <li><a href="/zixun/" target="_blank">考试资讯</a></li>
+                <li class="ge_line"></li>
+                <li><a href="/a/zhaopinjiameng/">招聘加盟</a></li>
+                <li class="ge_line"></li>
+
+                <li><a href="/a/zhuangyuanle/" target="_blank">考试订房</a></li>
+                <li><a href="http://51df.taobao.com" target="_blank">淘宝下单</a></li>
+                </li>
+                <li class="ge_line"></li>
+                <li><a href="/member/" target="_blank">会员社区</a></li>
+                <li><a href="/admin" target="_blank">业务员</a></li>
+                <li><a href="/subexamplace" target="_blank">考生入口</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="contain">
+        <div class="main_nav">
+            <h2 class="f14px f_white fb">分类订房</h2>
+            <ul id="main_nav">
+                <li>
+                    <h3><em></em><a href="/chuguolvyou/" target="_blank"><span><img src="~/Content/themes/first/images/title_chu.png" title="" class="fr" /></span>考试城市</a></h3>
+                    <p><a href="/a/zhuangyuanle/yanjiushengkaoshi/hangzhou/" title="杭州市" target="_blank">杭州市</a></p>
+                    <p><a href="/a/zhuangyuanle/yanjiushengkaoshi/nanchang/" title="南昌" target="_blank">南昌</a></p>
+                    <p><a href="/a/zhuangyuanle/yanjiushengkaoshi/fuzhoug/" target="_blank">福州</a></p>
+                    <p><a href="/a/zhuangyuanle/yanjiushengkaoshi/nanjing/" title="南京" target="_blank">南京</a></p>
+
+
+
+                </li>
+
+                <li>
+                    <h3><em></em><a href="/a/zhuangyuanle/kaoshileixing/" target="_blank"><span><img src="~/Content/themes/first/images/title_guo.png" title="" class="fr" /></span>考试类型</a></h3>
+                    <p><a href="/a/zhuangyuanle/kaoshileixing/yanjiusheng/" title="研究生" target="_blank">研究生</a></p>
+                    <p><a href="/a/zhuangyuanle/kaoshileixing/gongwuyuan/" title="公务员" target="_blank">公务员</a></p>
+                    <p><a href="/a/zhuangyuanle/kaoshileixing/yasi/" title="雅思" target="_blank">雅思</a></p>
+
+
+
+
+                </li>
+                <li>
+                    <h3><em></em><a href="/"><span><img src="~/Content/themes/first/images/title_zhou.png" title="" class="fr" /></span>假期房</a></h3>
+                    <p><a href="/a/zhuangyuanle/miyuefang/" target="_blank">蜜月房</a></p>
+                    <p><a href="/a/zhuangyuanle/jiatingfang/" target="_blank">家属房</a></p>
+
+
+
+
+                </li>
+
+
+
+
+
+
+
+                <li>
+                    <h3><em></em><a href="/zixun/zhuangyuanlegonggao/" target="_blank"><span><img src="~/Content/themes/first/images/title_chu.png" title="" class="fr" /></span>状元乐公告</a>  </h3>
+                    <ul class="exit_right_con">
+                        <marquee onmouseover=this.stop() onmouseout=this.start() scrollamount=3 direction=up width=220 height=150>
+                            <li> <a href="/zixun/zhuangyuanlegonggao/4184.html" target="_blank"><strong>2014年南昌状元乐司考酒店报价单</strong></a></li>
+                            <li> <a href="/zixun/zhuangyuanlegonggao/4183.html" target="_blank"><strong>2014年杭州状元乐考点酒店报价单</strong></a></li>
+                        </marquee>
+                    </ul>
+
+
+                    <dl class="no4">
+                        <em class="no4"></em>
+                        <h3 class="fb f_grey3">更多状元乐公告：</h3>
+
+
+                        <ul class="exit_right_con">
+                            <li><a href="/zixun/zhuangyuanlegonggao/4184.html" target="_blank"><strong>2014年南昌状元乐司考酒店报价单</strong></a></li>
+                            <li><a href="/zixun/zhuangyuanlegonggao/4183.html" target="_blank"><strong>2014年杭州状元乐考点酒店报价单</strong></a></li>
+                            <li><a href="/zixun/zhuangyuanlegonggao/4144.html" target="_blank"><strong>2014年杭州状元乐司考订房补交余款安排</strong></a></li>
+                            <li><a href="/zixun/zhuangyuanlegonggao/4139.html" target="_blank"><strong>状元乐杭州司考订房截止公告</strong></a></li>
+                            <li><a href="/zixun/zhuangyuanlegonggao/4057.html" target="_blank">状元乐司考订房开始啦</a></li>
+                            <li><a href="/zixun/zhuangyuanlegonggao/4116.html" target="_blank"><strong> 状元乐司考订房趋近尾声</strong></a></li>
+                            <li><a href="/zixun/zhuangyuanlegonggao/4121.html" target="_blank">状元乐考试订房南昌分部达成合作</a></li>
+                            <li><a href="/zixun/zhuangyuanlegonggao/4120.html" target="_blank">会员信息核对通知</a></li>
+
+                        </ul>
+
+
+
+
+                    </dl>
+                </li>
+
+            </ul>
+        </div>
+        <div class="mid_nav">
+            <div id="KinSlideshow" style="visibility:hidden;">
+                <p>
+                    <a href="http://zyldingfang.com" target="_blank"><img src="~/Content/themes/first/images/ad/maldives.jpg" title="考试订房" width="488" height="335" /></a>
+                    <a href="/shujialvyou/" target="_blank"><img src="~/Content/themes/first/images/ad/shujialvyou.jpg" title="" width="488" height="335" /></a>
+                    <a href="/ouzhou/" target="_blank"><img src="~/Content/themes/first/images/ad/ouzhou.jpg" title="" width="488" height="335" /></a>
+                    <a href="/balidao/" target="_blank"><img src="~/Content/themes/first/images/ad/balidao.jpg" title="" width="488" height="335" /></a>
+                    <a href="/taiguo/" target="_blank"><img src="~/Content/themes/first/images/ad/taiguo.jpg" title="" width="488" height="335" /></a>
+                </p>
+            </div>
+
+
+
+            <p><a href="http://51df.taobao.com" target="_blank"><img src="~/Content/themes/first/images/ad/taobaobanner.gif" title="" width="488" height="113" /></a></p>
+        </div>
+        <div class="right_banner">
+            <ul>
+                <li class="banner1">
+                    <img src="~/Content/themes/first/images/ad/pujidao.jpg"><em>01</em>
+                    <a href="/a/zhaopinjiameng/" target="_blank" >
+                        <em>01</em><strong>欢迎来到状元乐订房网推荐</strong>
+                        <span>推荐理由：盛夏来临，让我们感受恋恋的风情</span><span>欢迎来到状元乐订房网<i>查看详情</i></span>
+                    </a>
+                </li>
+                <li class="banner1 banner2">
+                    <img src="~/Content/themes/first/images/ad/ruishi.jpg"><em>02</em>
+                    <a href="/a/zhaopinjiameng/" target="_blank"   >
+                        <em>02</em><strong>欢迎来到状元乐订房网推荐</strong>
+                        <span>推荐理由：状元乐订房优美的自然风光</span><span>欢迎来到状元乐订房网<i>查看详情</i></span>
+                    </a>
+                </li>
+                <li class="banner1 banner3">
+                    <img src="~/Content/themes/first/images/ad/yuenan.jpg"> <em>03</em>
+                    <a href="/a/zhaopinjiameng/" target="_blank">
+                        <em>03</em><strong>欢迎来到状元乐订房网推荐</strong>
+                        <span>推荐理由：百花春城河内，如诗如画的状元乐订房</span><span>欢迎来到状元乐订房网<i>查看详情</i></span>
+                    </a>
+                </li>
+
+                <li class="banner1 banner4">
+                    <img src="~/Content/themes/first/images/ad/广告4.jpg"> <em>04</em>
+                    <a href="/a/zhaopinjiameng/" target="_blank">
+                        <em>04</em><strong>欢迎来到状元乐订房网推荐</strong>
+                        <span>推荐理由：百花春城河内，如诗如画的状元乐订房</span><span>欢迎来到状元乐订房网<i>查看详情</i></span>
+                    </a>
+                </li>
+
+
+
+            </ul>
+        </div>
+
+        <div class="nav_exit">
+            <span class="fr"><a href="/plus/list.php?tid=63689" target="_blank">考试天气</a>|<a href="/a/zhuangyuanle/" target="_blank">订房信息</a>|<a href="/ouzhou/zhinan/fangjiantuijian/" target="_blank">酒店推荐</a>|<a href="/plus/list.php?tid=63691" target="_blank">服务帮助</a>|<a href="/zixun/" target="_blank">更多>></a></span>
+            <h2 class="f16px f_orange fb"><em>1F</em><a href="/zixun/" target="_blank">信息资讯</a></h2>
+        </div>
+        <div class="nav_exit_left">
+            <h3 class="fb f_grey3">本季劲爆风向标</h3>
+            <a href="/zixun/zhuangyuanlegonggao/4057.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="220" height="89" alt="状元乐司考订房开始啦" /></a>
+            <p><a href="/zixun/zhuangyuanlegonggao/4057.html" target="_blank" class="f_black_a">状元乐司考订房开始啦...</a></p>
+
+            <ul>
+                <li><a href="/zixun/zhuangyuanlegonggao/4183.html" target="_blank" class="f_orange_a"><strong>2014年杭州状元乐考点酒店报价单</strong></a></li>
+                <li><a href="/zixun/4181.html" target="_blank" class="f_orange_a">状元乐补交余款后期工作安排通知</a></li>
+                <li><a href="/zixun/4182.html" target="_blank" class="f_orange_a">补交余款后信息核对通知</a></li>
+                <li><a href="/zixun/kaoshixinxi/4148.html" target="_blank" class="f_orange_a">关于入住酒店注意事项</a></li>
+                <li><a href="/zixun/kaoshixinxi/4147.html" target="_blank" class="f_orange_a">状元乐关于补缴余款的说明</a></li>
+                <li><a href="/zixun/kaoshixinxi/4146.html" target="_blank" class="f_orange_a">2014.8补交余款流程 </a></li>
+                <li><a href="/zixun/zhuangyuanlegonggao/4144.html" target="_blank" class="f_orange_a"><strong>2014年杭州状元乐司考订房补交余</strong></a></li>
+
+            </ul>
+        </div>
+        <div class="nav_exit_right">
+            <ul class="exit_right_top">
+                <li>
+                    <a href="/zixun/zhuangyuanlezixun/4058.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="139" height="105" alt="2013年杭州司考免费车接送按安排" /></a><br />
+                    <a href="/zixun/zhuangyuanlezixun/4058.html" target="_blank">2013年杭州司考免费车接送按安排...</a>
+                </li>
+                <li>
+                    <a href="/zixun/zhuangyuanlegonggao/4033.html" target="_blank"><img src="~/Content/images/defaultpic.gif" width="139" height="105" alt="状元乐司考订房第一次系统输入公告" /></a><br />
+                    <a href="/zixun/zhuangyuanlegonggao/4033.html" target="_blank">状元乐司考订房第一次系统输入公告...</a>
+                </li>
+                <li>
+                    <a href="/zixun/kaoshixinxi/4064.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="139" height="105" alt="考研政治多选题应试技巧" /></a><br />
+                    <a href="/zixun/kaoshixinxi/4064.html" target="_blank">考研政治多选题应试技巧...</a>
+                </li>
+                <li>
+                    <a href="/zixun/kaoshixinxi/4065.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="139" height="105" alt="司法考试复习秘籍" /></a><br />
+                    <a href="/zixun/kaoshixinxi/4065.html" target="_blank">司法考试复习秘籍...</a>
+                </li>
+                <li>
+                    <a href="/zixun/renwenfengsu/4009.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="139" height="105" alt="挑选您所要的酒店。司考订房服务在杭州即将启动" /></a><br />
+                    <a href="/zixun/renwenfengsu/4009.html" target="_blank">挑选您所要的酒店。司考订房服务在...</a>
+                </li>
+
+            </ul>
+            <ul class="exit_right_con">
+                <table width='100%' border='0' cellspacing='0' cellpadding='0'>
+                    <tr>
+                        <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/zhuangyuanlegonggao/4184.html" target="_blank"><strong>2014年南昌状元乐司考酒店报价单</strong></a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/zhuangyuanlegonggao/4183.html" target="_blank"><strong>2014年杭州状元乐考点酒店报价单</strong></a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/4181.html" target="_blank">状元乐补交余款后期工作安排通知</a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/4182.html" target="_blank">补交余款后信息核对通知</a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/kaoshixinxi/4148.html" target="_blank">关于入住酒店注意事项</a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/kaoshixinxi/4147.html" target="_blank">状元乐关于补缴余款的说明</a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/kaoshixinxi/4146.html" target="_blank">2014.8补交余款流程 </a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/zhuangyuanlegonggao/4144.html" target="_blank"><strong>2014年杭州状元乐司考订房补交余款安排</strong></a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/zhuangyuanlezixun/4145.html" target="_blank"><strong>状元乐补交余款说明</strong></a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/zhuangyuanlegonggao/4139.html" target="_blank"><strong>状元乐杭州司考订房截止公告</strong></a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/zhuangyuanlegonggao/4057.html" target="_blank">状元乐司考订房开始啦</a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/kaoshixinxi/4122.html" target="_blank">状元乐司考订房房源公告（杭州）</a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/zhuangyuanlegonggao/4116.html" target="_blank"><strong> 状元乐司考订房趋近尾声</strong></a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/tianqi/4123.html" target="_blank">2014年司法考试天气</a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/zhuangyuanlegonggao/4121.html" target="_blank">状元乐考试订房南昌分部达成合作</a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">推荐</em>news</span><a href="/zixun/zhuangyuanlegonggao/4120.html" target="_blank">会员信息核对通知</a></li>
+                </td>
+                </tr>
+                </table>
+
+            </ul>
+        </div>
+
+        <div class="nav_china">
+            <span class="fr"><a href="/a/maldives/juhuipaidui/yewailuying/" target="_blank">野外露营</a>|<a href="/plus/list.php?tid=63541" target="_blank">假期蜜月</a>| <a href="/a/maldives/" target="_blank">更多>></a></a></span>
+            <h2 class="f16px  f_blue1 fb"><em>2F</em><a href="/plus/list.php?tid=63749" target="_blank">聚会派对</a></h2>
+        </div>
+        <div class="nav_exit_left">
+            <h3 class="fb f_grey3">本季劲爆风向标</h3>
+            <a href="/a/maldives/juhuipaidui/KTVbaofang/4071.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="220" height="89" alt="2014年司法考试订房开始啦" /></a>
+            <p><a href="/a/maldives/juhuipaidui/KTVbaofang/4071.html" target="_blank" class="f_black_a">2014年司法考试订房开始啦...</a></p>
+
+            <ul>
+                <li><a href="/a/maldives/juhuipaidui/KTVbaofang/4071.html" target="_blank" class="f_orange_a">2014年司法考试订房开始啦</a></li>
+                <li><a href="/a/maldives/jieshao/gongzhufang/4067.html" target="_blank" class="f_orange_a">公主房 每个女孩心中都有一个公</a></li>
+                <li><a href="/a/maldives/juhuipaidui/yewaishaokao/4069.html" target="_blank" class="f_orange_a">仅240元!享受原价351元户外烧烤</a></li>
+                <li><a href="/a/maldives/juhuipaidui/yewaishaokao/4068.html" target="_blank" class="f_orange_a">野外烧烤 聚会派对</a></li>
+                <li><a href="/a/maldives/gonglue/xueyouhezu/4062.html" target="_blank" class="f_orange_a">找个童鞋合租</a></li>
+                <li><a href="/a/maldives/juhuipaidui/yewailuying/4063.html" target="_blank" class="f_orange_a">野外帐篷</a></li>
+                <li><a href="/a/maldives/xianlu/nizaina/4061.html" target="_blank" class="f_orange_a">假期你在哪儿 我们约会去</a></li>
+
+            </ul>
+        </div>
+        <div class="nav_exit_right">
+            <ul class="exit_right_top china_right_top">
+                <li>
+                    <a href="/a/maldives/juhuipaidui/KTVbaofang/4071.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="139" height="105" alt="2014年司法考试订房开始啦" /></a><br />
+                    <a href="/a/maldives/juhuipaidui/KTVbaofang/4071.html" target="_blank">2014年司法考试订房开始啦...</a>
+                </li>
+                <li>
+                    <a href="/a/maldives/jieshao/gongzhufang/4067.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="139" height="105" alt="公主房 每个女孩心中都有一个公主梦" /></a><br />
+                    <a href="/a/maldives/jieshao/gongzhufang/4067.html" target="_blank">公主房 每个女孩心中都有一个公主...</a>
+                </li>
+                <li>
+                    <a href="/a/maldives/juhuipaidui/yewaishaokao/4069.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="139" height="105" alt="仅240元!享受原价351元户外烧烤聚会" /></a><br />
+                    <a href="/a/maldives/juhuipaidui/yewaishaokao/4069.html" target="_blank">仅240元!享受原价351元户外烧烤聚...</a>
+                </li>
+                <li>
+                    <a href="/a/maldives/juhuipaidui/yewaishaokao/4068.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="139" height="105" alt="野外烧烤 聚会派对" /></a><br />
+                    <a href="/a/maldives/juhuipaidui/yewaishaokao/4068.html" target="_blank">野外烧烤 聚会派对...</a>
+                </li>
+                <li>
+                    <a href="/a/maldives/gonglue/xueyouhezu/4062.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="139" height="105" alt="找个童鞋合租" /></a><br />
+                    <a href="/a/maldives/gonglue/xueyouhezu/4062.html" target="_blank">找个童鞋合租...</a>
+                </li>
+
+            </ul>
+            <ul class="exit_right_con">
+                <table width='100%' border='0' cellspacing='0' cellpadding='0'>
+                    <tr>
+                        <td width='50%'>
+                <li><span><em class="f14px">最新介绍</em>new</span><a href="/a/maldives/juhuipaidui/KTVbaofang/4070.html" target="_blank">毕业酒会谢师宴预定中</a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">最新低档：60-100元    中档  100-130    高档   130-160 （注：由于地区经济水平不同价格有所不同）</em>new</span><a href="/a/maldives/juhuipaidui/KTVbaofang/4071.html" target="_blank">2014年司法考试订房开始啦</a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td width='50%'>
+                <li><span><em class="f14px">最新</em>new</span><a href="/a/maldives/jieshao/gongzhufang/4067.html" target="_blank">公主房 每个女孩心中都有一个公主梦</a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">最新</em>new</span><a href="/a/maldives/juhuipaidui/yewaishaokao/4069.html" target="_blank">仅240元!享受原价351元户外烧烤聚会</a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td width='50%'>
+                <li><span><em class="f14px">最新</em>new</span><a href="/a/maldives/juhuipaidui/yewaishaokao/4068.html" target="_blank">野外烧烤 聚会派对</a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">最新</em>new</span><a href="/a/maldives/gonglue/xueyouhezu/4062.html" target="_blank">找个童鞋合租</a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td width='50%'>
+                <li><span><em class="f14px">最新</em>new</span><a href="/a/maldives/juhuipaidui/yewailuying/4063.html" target="_blank">野外帐篷</a></li>
+                </td>
+                <td width='50%'>
+                <li><span><em class="f14px">最新</em>new</span><a href="/a/maldives/xianlu/nizaina/4061.html" target="_blank">假期你在哪儿 我们约会去</a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td width='50%'></td>
+                    <td width='50%'></td>
+                </tr>
+                <tr>
+                    <td width='50%'></td>
+                    <td width='50%'></td>
+                </tr>
+                <tr>
+                    <td width='50%'></td>
+                    <td width='50%'></td>
+                </tr>
+                <tr>
+                    <td width='50%'></td>
+                    <td width='50%'></td>
+                </tr>
+                </table>
+
+            </ul>
+        </div>
+        <div class="nav_madai">
+            <h2 class="f16px fb"><em>3F</em><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">推荐酒店</a></h2>
+        </div>
+        <div class="nav_Liner_left">
+            <dl>
+                <dt><em class="linerno1"></em>四星推荐酒店</dt>
+                <dd><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">推荐酒店1</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">推荐酒店</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">推荐酒店</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">推荐酒店</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.htmll" target="_blank">推荐酒店</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">推荐酒店</a></dd>
+                <dt><em class="linerno2"></em>五星酒店推荐</dt>
+                <dd><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">格林豪泰</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">天堂岛</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a></dd>
+                <dt><em class="linerno3"></em>六星酒店推荐</dt>
+                <dd><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a><a href="/maldives/villingili-resort.html" target="_blank">香格里拉</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a></dd>
+                <dt><em class="linerno4"></em>酒店推荐</dt>
+                <dd class="no_liner"><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a><a href="/a/zhaopinjiameng/jiameng/2014/0608/4059.html" target="_blank">酒店推荐</a></dd>
+            </dl>
+        </div>
+        <div class="right_banner nav_Liner_right">
+            <ul>
+
+                <li class="a21"><img src="~/Content/themes/first/images/index_7.gif" width="241" height="371" /><a href="http://www.zyldingfang.com/a/zhuangyuanle/yanjiushengkaoshi/hangzhou/jiangbin/2014/0824/4154.html"><strong>杭州喜盈盈宾</strong><span>杭州喜盈盈宾馆位于杭州市上城区复兴路103号，地处杭城南部新兴的商业社区，与钱江四桥咫尺之遥，距西湖风景区仅需5分钟车程，总面积1.2万平方米，拥有大型地下停车库。宾馆拥有客房80间，温馨舒适，所有房间配备有线宽带上网接口，豪华间配备电脑，为你在旅途中处理相关工作事宜提供便利，杭州的理想落脚点。宾馆开业时间2004年12月18日，楼高8层，共有客房总数80间（套）</span><span>当季特惠推荐<i>查看详情</i></span></a></li>
+                <li class="a22 mad_title"><img src="~/Content/themes/first/images/index_8.gif" width="159" height="120" /><a href="/"><strong>速8酒店</strong><span>速8酒店酒店共有90间温馨舒适的客房，会议可以容纳40-50人，酒店提供免费停车位，免费宽带上网，餐饮服务。</span><span><i>查看详情</i></span></a></li>
+                <li class="a23 mad_title"><img src="~/Content/themes/first/images/index_9.gif" width="159" height="120" /><a href="/"><strong>金茂假日酒店</strong><span>酒店共有90间温馨舒适的客房，会议可以容纳40-50人，酒店提供免费停车位，免费宽带上网，餐饮服务。</span><span><i>查看详情</i></span></a></li>
+                <li class="a24 mad_title"><img src="~/Content/themes/first/images/index_10.gif" width="159" height="120" /><a href="/"><strong>皇冠大酒店</strong><span>杭州皇冠大酒店是一家集住宿、餐饮、娱乐、商务、会议于一体的挂牌四星级酒店, 酒店在2011年及12年进行全面的改建和装修。</span><span><i>查看详情</i></span></a></li>
+                <li class="a25 mad_big"><img src="~/Content/themes/first/images/index_12.gif" width="323" height="245" /><a href="/"><strong>海天宾馆</strong><span>酒店共有90间温馨舒适的客房，会议可以容纳40-50人，酒店提供免费停车位，免费宽带上网，餐饮服务。。</span><span>当季特惠线路推荐<i>查看详情</i></span></a></li>
+                <li class="a26 mad_title"><img src="~/Content/themes/first/images/index_11.gif" width="159" height="245" /><a href="/"><strong>天海宾馆</strong><span>酒店是一家集住宿、餐饮、娱乐、商务、会议于一体的挂牌四星级酒店, 酒店在2011年及12年进行全面的改建和装修。</span><span><i>查看详情</i></span></a></li>
+            </ul>
+        </div>
+        <div class="nav_zhinan fl">
+            <h2 class="f16px fb"><em>4F</em><a href="/zhinan/" target="_blank">考试资讯信息</a></h2>
+        </div>
+        <div class="nav_index_bottom">
+            <div class="fl" style="width:672px;">
+                <div class="scenic">
+                    <h3><span class="fr"><a href="/zixun/" target="_blank">更多>></a></span><em></em><a href="/zixun/" target="_blank" class="f14px fb">考试信息</a></h3>
+                    <ul>
+                        <li>
+                            <a href="/zixun/kaoshixinxi/4122.html" target="_blank"><img src="~/Content/uploads/test.jpg" title="状元乐司考订房房源公告（考试" /></a><br />
+                            <a href="/zixun/kaoshixinxi/4122.html" target="_blank" class="f_blue1_a">状元乐司考订房房源公告（</a>
+                        </li>
+                        <li>
+                            <a href="/zixun/kaoshixinxi/4147.html" target="_blank"><img src="~/Content/images/defaultpic.gif" title="状元乐关于补缴余款的说明考试" /></a><br />
+                            <a href="/zixun/kaoshixinxi/4147.html" target="_blank" class="f_blue1_a">状元乐关于补缴余款的说明</a>
+                        </li>
+                        <li>
+                            <a href="/zixun/kaoshixinxi/4146.html" target="_blank"><img src="~/Content/images/defaultpic.gif" title="2014.8补交余款流程 考试" /></a><br />
+                            <a href="/zixun/kaoshixinxi/4146.html" target="_blank" class="f_blue1_a">2014.8补交余款流程 </a>
+                        </li>
+
+                    </ul>
+                    <p><span><a href="/zixun/kaoshixinxi/4148.html" target="_blank">[关于入住酒店注意事项]</a></span></p>
+                    <p><span><a href="/zixun/kaoshixinxi/4147.html" target="_blank">[状元乐关于补缴余款的说明]</a></span></p>
+                    <p><span><a href="/zixun/kaoshixinxi/4146.html" target="_blank">[2014.8补交余款流程 ]</a></span></p>
+                    <p><span><a href="/zixun/kaoshixinxi/4122.html" target="_blank">[状元乐司考订房房源公告（]</a></span></p>
+                    <p><span><a href="/ouzhou/jingdian/4008.html" target="_blank">[杭州鼎江南大酒店--浙江大]</a></span></p>
+                    <p><span><a href="/zixun/kaoshixinxi/4118.html" target="_blank">[状元乐关于补缴余款的说明]</a></span></p>
+                    <p><span><a href="/zixun/kaoshixinxi/4114.html" target="_blank">[凡选择在南昌地区（代码36]</a></span></p>
+                    <p><span><a href="/zixun/kaoshixinxi/4064.html" target="_blank">[考研政治多选题应试技巧]</a></span></p>
+                    <p><span><a href="/zixun/kaoshixinxi/4066.html" target="_blank">[找准司法考试复习节奏]</a></span></p>
+                    <p><span><a href="/zixun/kaoshixinxi/4065.html" target="_blank">[司法考试复习秘籍]</a></span></p>
+                    <p><span><a href="/zixun/kaoshixinxi/4094.html" target="_blank">[2011年浙江杭州考研总况]</a></span></p>
+                    <p><span><a href="/zixun/kaoshixinxi/4093.html" target="_blank">[2011年考研备战参考时间表]</a></span></p>
+
+                </div>
+                <div class="scenic">
+                    <h3><span class="fr"><a href="/zixun/zhuangyuanlegonggao/" target="_blank">更多>></a></span><em></em><a href="/zixun/zhuangyuanlegonggao/" class="f14px fb">状元乐公告</a></h3>
+                    <ul>
+                        <li>
+                            <a href="/zixun/zhuangyuanlegonggao/4139.html" target="_blank"><img src="~/Content/images/defaultpic.gif" title="><strong>状元乐杭州司考订房截止公</strong>旅游"/></a><br />
+                            <a href="/zixun/zhuangyuanlegonggao/4139.html" target="_blank" class="f_blue1_a"><strong>状元乐杭州司考订房截止公</strong></a>
+                        </li>
+                        <li>
+                            <a href="/zixun/zhuangyuanlegonggao/4057.html" target="_blank"><img src="~/Content/uploads/test.jpg" title="状元乐司考订房开始啦旅游" /></a><br />
+                            <a href="/zixun/zhuangyuanlegonggao/4057.html" target="_blank" class="f_blue1_a">状元乐司考订房开始啦</a>
+                        </li>
+                        <li>
+                            <a href="/zixun/zhuangyuanlegonggao/3995.html" target="_blank"><img src="~/Content/images/defaultpic.gif" title="近期在校内出现一私营机构旅游" /></a><br />
+                            <a href="/zixun/zhuangyuanlegonggao/3995.html" target="_blank" class="f_blue1_a">近期在校内出现一私营机构</a>
+                        </li>
+
+                    </ul>
+                    <p><span><a href="/zixun/zhuangyuanlegonggao/4184.html" target="_blank">[<strong>2014年南昌状元乐司考酒店</strong>]</a></span></p>
+                    <p><span><a href="/zixun/zhuangyuanlegonggao/4183.html" target="_blank">[<strong>2014年杭州状元乐考点酒店</strong>]</a></span></p>
+                    <p><span><a href="/zixun/zhuangyuanlegonggao/4144.html" target="_blank">[<strong>2014年杭州状元乐司考订房</strong>]</a></span></p>
+                    <p><span><a href="/zixun/zhuangyuanlegonggao/4139.html" target="_blank">[<strong>状元乐杭州司考订房截止公</strong>]</a></span></p>
+                    <p><span><a href="/zixun/zhuangyuanlegonggao/4057.html" target="_blank">[状元乐司考订房开始啦]</a></span></p>
+                    <p><span><a href="/zixun/zhuangyuanlegonggao/4116.html" target="_blank">[<strong> 状元乐司考订房趋近尾声</strong>]</a></span></p>
+                    <p><span><a href="/zixun/zhuangyuanlegonggao/4121.html" target="_blank">[状元乐考试订房南昌分部达]</a></span></p>
+                    <p><span><a href="/zixun/zhuangyuanlegonggao/4120.html" target="_blank">[会员信息核对通知]</a></span></p>
+                    <p><span><a href="/zixun/zhuangyuanlegonggao/4107.html" target="_blank">[2014年杭州研究生考试订房]</a></span></p>
+                    <p><span><a href="/zixun/zhuangyuanlegonggao/4095.html" target="_blank">[2013年状元乐司考学校到酒]</a></span></p>
+
+                </div>
+                <div class="nav_Raiders">
+                    <h3><em></em><a href="/ouzhou/zhinan/fangjiantuijian/" class="f14px fb">订房信息</a><span>trip</span></h3>
+                    <h4><a href="/ouzhou/zhuyi/4163.html" target="_blank"><img src="~/Content/uploads/test.jpg" width="104" height="75" alt=" 杭州银江宾馆座落于杭州市是您意外和惊喜的下榻之地 " /></a></h4>
+                    <h5><a href="/ouzhou/zhuyi/4163.html" target="_blank"> 杭州银江宾馆座落于杭州市是您意外和惊喜的下榻之地 </a></h5>
+                    <p>杭州银江宾馆座落于杭州市最具活力的商业中心区域内，位于繁华的金融商务街庆春路上，是一家集住宿、餐饮、会议、娱乐为一体的精品商务酒店，地理位置优越，交通便捷。沿庆</p>
+
+                    <ul class="fl">
+                        <table width='100%' border='0' cellspacing='0' cellpadding='0'>
+                            <tr>
+                                <td width='50%'>
+                        <li><a href="/ouzhou/zhuyi/4163.html" target="_blank"> 杭州银江宾馆座落于杭州市是您意外和惊喜的下榻之地 </a></li>
+                        </td>
+                        <td width='50%'>
+                        <li><a href="/ouzhou/zhuyi/4138.html" target="_blank">杭州七悦臻品酒店</a></li>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td width='50%'>
+                        <li><a href="/ouzhou/zhuyi/4125.html" target="_blank">祥和北星大酒店推荐—浙江大学紫金港</a></li>
+                        </td>
+                        <td width='50%'>
+                        <li><a href="/ouzhou/zhuyi/4124.html" target="_blank">浙江大学紫金港校区一万好万家酒店推荐</a></li>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td width='50%'></td>
+                            <td width='50%'></td>
+                        </tr>
+                        <tr>
+                            <td width='50%'></td>
+                            <td width='50%'></td>
+                        </tr>
+                        <tr>
+                            <td width='50%'></td>
+                            <td width='50%'></td>
+                        </tr>
+                        </table>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div>
+                <h3><span class="fr"><a href="/zixun/fengjingtupian/" target="_blank">更多>></a></span><em></em><a href="/zixun/fengjingtupian/" class="f14px fb">考试资料</a></h3>
+
+                <p></p>
+                <p>&#160;</p>
+                <p></p>
+                <li><span>① ★【推荐资料】</span><a href="/zixun/fengjingtupian/4012.html" target="_blank">根据《中华人民共和国司法部第13</a></li>
+            </div>
+            <div class="nav_youlun_list">
+                <ul>
+                    <li><span>第资料</span><a href="/zixun/fengjingtupian/4105.html" target="_blank">福州市常见问题及标准化答疑</a></li>
+                    <li><span>第资料</span><a href="/zixun/fengjingtupian/4015.html" target="_blank">第一章民事诉讼与民事诉讼法</a></li>
+                    <li><span>第资料</span><a href="/zixun/fengjingtupian/4014.html" target="_blank">中华人民共和国环境保护法</a></li>
+                    <li><span>第资料</span><a href="/zixun/fengjingtupian/4013.html" target="_blank">根据《司法部关于做好2013年国家</a></li>
+                    <li><span>第资料</span><a href="/zixun/fengjingtupian/4012.html" target="_blank">根据《中华人民共和国司法部第13</a></li>
+
+                </ul>
+            </div>
+
+
+            <div>
+
+                <li><span>① ★【推荐资料】</span><a href="/zixun/fengjingtupian/4115.html" target="_blank">导游，车队师傅</a>
+            </div>
+            <div class="nav_youlun_list">
+                <ul>
+                    <li><span>第资料</span> <a href="/zixun/fengjingtupian/4105.html" target="_blank">福州市常见问题及标准化答疑</a></li>
+                    <li><span>第资料</span> <a href="/zixun/fengjingtupian/4015.html" target="_blank">第一章民事诉讼与民事诉讼法</a></li>
+                    <li><span>第资料</span> <a href="/zixun/fengjingtupian/4014.html" target="_blank">中华人民共和国环境保护法</a></li>
+                    <li><span>第资料</span> <a href="/zixun/fengjingtupian/4013.html" target="_blank">根据《司法部关于做好2013年国家</a></li>
+                    <li><span>第资料</span> <a href="/zixun/fengjingtupian/4012.html" target="_blank">根据《中华人民共和国司法部第13</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--bottom start-->
+    <!--bottom start-->
+    <div class="clear"></div>
+    
+    <!--在线QQ -->
+    @*<div id="STATICMENU" style="Z-INDEX: 989; left: 0px; VISIBILITY: visible; WIDTH: 110px; POSITION: absolute; TOP: 150px;">
+    <div><img src="~/Content/themes/first/images/QQ/top.gif" border="0" usemap="#Map"></div>
+    <div style=" width:110px; background-color:#F6F6F6; text-align:center; padding:8px 0;">
+        <div style="margin:0 auto; width:90px;">
+            <dl>
+                <dt class="qq_text">订前咨询：</dt>
+                <dd class="qq_body"></dd>
+                <dt><a title="在线客服" href="tencent://message/?uin=1140046717&Site=在线咨询&Menu=yes"><img src="http://wpa.qq.com/pa?p=1:1140046717:41" alt="" width="74" height="22" border=0></a></dt>
+                <dt class="qq_text">问题解答：</dt>
+                <dt><a title="在线客服" href="tencent://message/?uin=1140046717&Site=在线咨询&Menu=yes"><img src="http://wpa.qq.com/pa?p=1:1140046717:41" alt="" width="74" height="22" border=0></a></dt>
+                <dt class="qq_text">售后服务：</dt>
+                <dd class="qq_body"></dd>
+                <dt><a title="在线客服" href="tencent://message/?uin=1140046717&Site=在线咨询&Menu=yes"><img src="http://wpa.qq.com/pa?p=1:1140046717:41" alt="" width="74" height="22" border=0></a></dt>
+                <dt class="qq_text">招聘加盟：</dt>
+                <dd class="qq_body"></dd>
+                <dt><a title="在线客服" href="tencent://message/?uin=1140046717&Site=在线咨询&Menu=yes"><img src="http://wpa.qq.com/pa?p=1:1140046717:41" alt="" width="74" height="22" border=0></a></dt>
+                <dt class="qq_text">客服电话：</dt>
+                <font color=RED size=2>057128920301 </font>
+                <a href="http://www.hongzhaopai.com/images/zyldingfang.png" target="_blank"><img src="~/Content/images/zyldingfang.png" alt="状元乐二维码" width="90" height="90" class="size-full wp-image-676" /></a>状元乐二维码
+            </dl>
+        </div>
+    </div>
+    <div style=" background-color:#626262; height:8px;"></div>
+*@
+        <script language="javascript">
+            var QuickScrollYLast = 0;
+            var STATICMENU = document.getElementById("STATICMENU")
+            window.setInterval("LoadMenu()", 1);
+            function LoadMenu() {
+                var QuickScrollYDefault;
+                if (document.documentElement && document.documentElement.scrollTop) {
+                    QuickScrollYDefault = document.documentElement.scrollTop;
+                } else if (document.body) {
+                    QuickScrollYDefault = document.body.scrollTop;
+                } else {
+                }
+                QuickPercent = .1 * (QuickScrollYDefault - QuickScrollYLast);
+                if (QuickPercent > 0) {
+                    QuickPercent = Math.ceil(QuickPercent);
+                } else {
+                    QuickPercent = Math.floor(QuickPercent);
+                }
+               // STATICMENU.style.top = parseInt(STATICMENU.style.top) + QuickPercent + "px";
+                QuickScrollYLast = QuickScrollYLast + QuickPercent;
+            }
+
+            function qq_close() {
+                STATICMENU.style.display = 'none';
+            }
+        </script>
+    </div>
+    <map name="Map"><area shape="rect" coords="94,4,108,18" href="javascript:qq_close();"></map>
+
+
+
+
+
+    </div>
+    <div class="clear"></div>
+    </div>
+    <!-- Baidu Button BEGIN -->
+    <script type="text/javascript" id="bdshare_js" data="type=slide&img=0&uid=397526"></script>
+    <script type="text/javascript" id="bdshell_js"></script>
+    <script type="text/javascript">
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+    </script>
+    <!-- Baidu Button END -->
+    <!--[if IE 6]>
+    <script type="text/javascript" src="/tjs/png_touming.js"></script>
+    <script type="text/javascript">
+    DD_belatedPNG.fix('#main_nav,img')
+    </script>
+    <![endif]-->
+</body>
+</html>
+
+

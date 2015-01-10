@@ -1,0 +1,6 @@
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\zyldingfangWebLoadTest\bin\Debug\WebTest1.webtest
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\zyldingfangWebLoadTest\bin\Debug\zyldingfangWebLoadTest.dll
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\zyldingfangWebLoadTest\bin\Debug\zyldingfangWebLoadTest.pdb
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\zyldingfangWebLoadTest\obj\Debug\zyldingfangWebLoadTest.csprojResolveAssemblyReference.cache
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\zyldingfangWebLoadTest\obj\Debug\zyldingfangWebLoadTest.dll
+D:\all in one\project\websvn\zyldingfang\trunk\WebMVC\zyldingfangWebLoadTest\obj\Debug\zyldingfangWebLoadTest.pdb

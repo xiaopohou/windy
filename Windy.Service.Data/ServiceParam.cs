@@ -15,9 +15,10 @@ namespace Windy.Service.Data
         /// <summary>
         /// 获取ServiceParam对象实例
         /// </summary>
-        public static ServiceParam Instance
+        public static ServiceParam Instance 
         {
-            get
+            get 
+
             {
                 if (m_instance == null)
                     m_instance = new ServiceParam();

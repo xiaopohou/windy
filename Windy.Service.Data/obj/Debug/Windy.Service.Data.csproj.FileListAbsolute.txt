@@ -9,3 +9,14 @@ D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\bin\Debug\Wind
 D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\obj\Debug\Windy.Service.Data.csprojResolveAssemblyReference.cache
 D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\obj\Debug\Windy.Service.Data.dll
 D:\all in one\project\websvn\zyldingfang\trunk\Windy.Service.Data\obj\Debug\Windy.Service.Data.pdb
+D:\all in one\Git\windy\Windy.Service.Data\bin\Debug\Windy.Service.Data.dll
+D:\all in one\Git\windy\Windy.Service.Data\bin\Debug\Windy.Service.Data.pdb
+D:\all in one\Git\windy\Windy.Service.Data\bin\Debug\MySql.Data.dll
+D:\all in one\Git\windy\Windy.Service.Data\bin\Debug\Windy.Common.Libraries.dll
+D:\all in one\Git\windy\Windy.Service.Data\bin\Debug\Windy.Service.DAL.dll
+D:\all in one\Git\windy\Windy.Service.Data\bin\Debug\NPOI.dll
+D:\all in one\Git\windy\Windy.Service.Data\bin\Debug\Windy.Common.Libraries.pdb
+D:\all in one\Git\windy\Windy.Service.Data\bin\Debug\Windy.Service.DAL.pdb
+D:\all in one\Git\windy\Windy.Service.Data\obj\Debug\Windy.Service.Data.csprojResolveAssemblyReference.cache
+D:\all in one\Git\windy\Windy.Service.Data\obj\Debug\Windy.Service.Data.dll
+D:\all in one\Git\windy\Windy.Service.Data\obj\Debug\Windy.Service.Data.pdb
