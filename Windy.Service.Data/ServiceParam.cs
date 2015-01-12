@@ -6,6 +6,7 @@ using System.Web;
 using Windy.Common.Libraries;
 using Windy.Common.Libraries.DbAccess;
 using Windy.Service.DAL;
+using Windy.Service.DAL.WeiXin;
 
 namespace Windy.Service.Data
 {
@@ -64,6 +65,9 @@ namespace Windy.Service.Data
                 szDbType = ConfigurationManager.AppSettings["zyldingfang.db.type"];
                 szProvider = ConfigurationManager.AppSettings["zyldingfang.db.provider"];
                 szConnString = ConfigurationManager.AppSettings["zyldingfang.db.connection"];
+
+                //初始化微信App信息
+                WeiXinAppInfo weiXinAppInfo = new WeiXinAppInfo();
             }
             catch (Exception ex)
             {

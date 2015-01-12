@@ -1,6 +1,6 @@
 // ***********************************************************
 // 数据库访问层系统运行参数管理类,用于调用层来修改运行参数.
-// Creator:YangMingkun  Date:2012-3-20
+// Creator:yehui  Date:2012-3-20
 // Copyright : Heren Health Services Co.,Ltd.
 // ***********************************************************
 using System;
@@ -10,6 +10,7 @@ using Windy.Common.Libraries;
 using Windy.Common.Libraries.DbAccess;
 using Windy.Common.Libraries.Ftp;
 using Windy.Service.DAL;
+using Windy.Service.DAL.WeiXin;
 
 namespace Windy.Service.DAL
 {
@@ -25,6 +26,7 @@ namespace Windy.Service.DAL
         private FtpAccess m_InfoLibFtpAccess = null;
         private DataAccess m_DocDbAccess = null;
         private StorageMode m_eStorageMode = StorageMode.Unknown;
+       
 
 
         private static ServerParam m_Instance = null;
@@ -66,7 +68,18 @@ namespace Windy.Service.DAL
             get { return this.m_DbAccess; }
         }
 
-
+        private WeiXinAppInfo m_WeiXinAppInfo = null;
+        public WeiXinAppInfo WeiXinAppInfo
+        {
+            get {
+                if (this.m_WeiXinAppInfo == null)
+                    this.m_WeiXinAppInfo = new WeiXinAppInfo();
+                return this.m_WeiXinAppInfo;
+            }
+            set {
+                this.m_WeiXinAppInfo = value;
+            }
+        }
         /// <summary>
         /// 获取或设置程序工作路径
         /// </summary>

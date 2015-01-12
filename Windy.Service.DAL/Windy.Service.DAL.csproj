@@ -46,6 +46,7 @@
     <Compile Include="ServerType.cs" />
     <Compile Include="Task\AdminAccess.cs" />
     <Compile Include="Task\DemandAccess.cs" />
+    <Compile Include="WeiXin\WeiXinAppInfo.cs" />
     <Compile Include="zyldingfang\EmployeeAccess.cs" />
     <Compile Include="zyldingfang\EmpMenuAccess.cs" />
     <Compile Include="zyldingfang\EmpOrgAccess.cs" />

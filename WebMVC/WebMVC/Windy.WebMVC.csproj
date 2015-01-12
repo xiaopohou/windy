@@ -168,6 +168,8 @@
     <Compile Include="Areas\Admin\Controllers\UsersController.cs" />
     <Compile Include="Areas\SubExamPlace\Controllers\HomeController.cs" />
     <Compile Include="Areas\SubExamPlace\SubExamPlaceAreaRegistration.cs" />
+    <Compile Include="Areas\weixin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\weixin\weixinAreaRegistration.cs" />
     <Compile Include="Aspx\DemandEdit.aspx.cs">
       <DependentUpon>DemandEdit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2087,6 +2089,8 @@
     <Content Include="ClassDiagram1.cd" />
     <Content Include="Areas\Admin\Views\LogManage\Index.cshtml" />
     <Content Include="Areas\Admin\Views\LogManage\Detail.cshtml" />
+    <Content Include="Areas\weixin\Views\Web.config" />
+    <Content Include="Areas\weixin\Views\Home\Index.cshtml" />
     <None Include="Properties\PublishProfiles\ftp.pubxml" />
     <None Include="Properties\PublishProfiles\WebMVC.pubxml" />
     <Content Include="Scripts\bootstrap-3.3.0\.gitattributes" />
@@ -3576,6 +3580,8 @@
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\SubExamPlace\Models\" />
+    <Folder Include="Areas\weixin\Models\" />
+    <Folder Include="Areas\weixin\Views\Shared\" />
     <Folder Include="Content\temp\demand\" />
     <Folder Include="Content\temp\excel\" />
     <Folder Include="Content\temp\news\" />
@@ -3587,6 +3593,14 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\WeiXinMPSDK\Senparc.Weixin.MP\Senparc.Weixin.MP\Senparc.Weixin.MP.csproj">
+      <Project>{1d815fbf-451c-4e23-939c-cb80172f445c}</Project>
+      <Name>Senparc.Weixin.MP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\WeiXinMPSDK\Senparc.Weixin\Senparc.Weixin\Senparc.Weixin.csproj">
+      <Project>{814092cd-9cd0-4fb7-91e8-d147f476f1fb}</Project>
+      <Name>Senparc.Weixin</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Common\Windy.Common\Windy.Common.Libraries\Windy.Common.Libraries.csproj">
       <Project>{acfa8af8-4689-46c5-b4cf-4abd89d81f78}</Project>
       <Name>Windy.Common.Libraries</Name>
