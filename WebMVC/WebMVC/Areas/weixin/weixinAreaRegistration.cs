@@ -17,7 +17,7 @@ namespace Windy.WebMVC.Areas.weixin
             context.MapRoute(
                 "weixin_default",
                 "weixin/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
+                new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

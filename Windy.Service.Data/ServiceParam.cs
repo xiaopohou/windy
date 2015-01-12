@@ -68,6 +68,11 @@ namespace Windy.Service.Data
 
                 //初始化微信App信息
                 WeiXinAppInfo weiXinAppInfo = new WeiXinAppInfo();
+                weiXinAppInfo.AppID = ConfigurationManager.AppSettings["weixin.app_id"];
+                weiXinAppInfo.AppSecret = ConfigurationManager.AppSettings["weixin.app_secret"];
+                weiXinAppInfo.OpenID = ConfigurationManager.AppSettings["weixin.open_id"];
+                weiXinAppInfo.AccessToken = ConfigurationManager.AppSettings["weixin.access_token"];
+                ServerParam.Instance.WeiXinAppInfo = weiXinAppInfo;
             }
             catch (Exception ex)
             {

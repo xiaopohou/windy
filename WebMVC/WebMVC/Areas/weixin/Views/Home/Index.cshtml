@@ -1,5 +1,12 @@
 ﻿@{
     ViewBag.Title = "Index";
 }
-
+@model Senparc.Weixin.MP.AdvancedAPIs.UserInfoJson
 <h2>Index</h2>
+<ul>
+    <li><span>用户昵称：</span>@Model.nickname</li>
+    <li><span>省份：</span>@Model.province</li>
+    <li>@Model.sex</li>
+    <li>@Model.language</li>
+    <li>@Model.nickname</li>
+</ul>
