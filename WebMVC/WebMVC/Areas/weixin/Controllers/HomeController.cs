@@ -1,4 +1,5 @@
 ﻿using Senparc.Weixin.Exceptions;
+using Senparc.Weixin.MP;
 using Senparc.Weixin.MP.AdvancedAPIs;
 using Senparc.Weixin.MP.CommonAPIs;
 using System;
@@ -63,7 +64,7 @@ namespace Windy.WebMVC.Areas.weixin.Controllers
             Response.Write("发送成功");
             return View();
         }
-        
+       
 
     }
 }

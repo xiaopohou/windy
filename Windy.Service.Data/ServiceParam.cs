@@ -72,6 +72,8 @@ namespace Windy.Service.Data
                 weiXinAppInfo.AppSecret = ConfigurationManager.AppSettings["weixin.app_secret"];
                 weiXinAppInfo.OpenID = ConfigurationManager.AppSettings["weixin.open_id"];
                 weiXinAppInfo.AccessToken = ConfigurationManager.AppSettings["weixin.access_token"];
+                weiXinAppInfo.Token = ConfigurationManager.AppSettings["weixin.Token"];
+                weiXinAppInfo.EncodingAESKey = ConfigurationManager.AppSettings["weixin.EncodingAESKey"];
                 ServerParam.Instance.WeiXinAppInfo = weiXinAppInfo;
             }
             catch (Exception ex)

@@ -169,6 +169,7 @@
     <Compile Include="Areas\SubExamPlace\Controllers\HomeController.cs" />
     <Compile Include="Areas\SubExamPlace\SubExamPlaceAreaRegistration.cs" />
     <Compile Include="Areas\weixin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\weixin\Controllers\WeiXinCheckController.cs" />
     <Compile Include="Areas\weixin\weixinAreaRegistration.cs" />
     <Compile Include="Aspx\DemandEdit.aspx.cs">
       <DependentUpon>DemandEdit.aspx</DependentUpon>
@@ -211,6 +212,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\EventService.cs" />
+    <Compile Include="Utility\LocationService.cs" />
+    <Compile Include="Utility\MessageHandlers\CustomMessageHandler\CustomMessageContext.cs" />
+    <Compile Include="Utility\MessageHandlers\CustomMessageHandler\CustomMessageHandler.cs" />
+    <Compile Include="Utility\MessageHandlers\CustomMessageHandler\CustomMessageHandler_Events.cs" />
+    <Compile Include="Utility\MvcExtension\FixWeixinBugWeixinResult.cs" />
+    <Compile Include="Utility\MvcExtension\WeixinResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aspx\DemandEdit.aspx" />
