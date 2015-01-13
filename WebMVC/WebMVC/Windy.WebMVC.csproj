@@ -169,6 +169,7 @@
     <Compile Include="Areas\SubExamPlace\Controllers\HomeController.cs" />
     <Compile Include="Areas\SubExamPlace\SubExamPlaceAreaRegistration.cs" />
     <Compile Include="Areas\weixin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\weixin\Controllers\SimulateToolController.cs" />
     <Compile Include="Areas\weixin\Controllers\WeiXinCheckController.cs" />
     <Compile Include="Areas\weixin\weixinAreaRegistration.cs" />
     <Compile Include="Aspx\DemandEdit.aspx.cs">
@@ -2101,6 +2102,8 @@
     <Content Include="Areas\weixin\Views\Home\Index.cshtml" />
     <Content Include="Areas\weixin\Views\Home\UserInfo.cshtml" />
     <Content Include="Areas\weixin\Views\Home\SendText.cshtml" />
+    <Content Include="Areas\weixin\Views\SimulateTool\Index.cshtml" />
+    <Content Include="Areas\weixin\Views\Shared\_Layout.cshtml" />
     <None Include="Properties\PublishProfiles\ftp.pubxml" />
     <None Include="Properties\PublishProfiles\WebMVC.pubxml" />
     <Content Include="Scripts\bootstrap-3.3.0\.gitattributes" />
@@ -3591,7 +3594,6 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\SubExamPlace\Models\" />
     <Folder Include="Areas\weixin\Models\" />
-    <Folder Include="Areas\weixin\Views\Shared\" />
     <Folder Include="Content\temp\demand\" />
     <Folder Include="Content\temp\excel\" />
     <Folder Include="Content\temp\news\" />
@@ -3661,6 +3663,8 @@
           <DevelopmentServerPort>40353</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:37836/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:37836/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
