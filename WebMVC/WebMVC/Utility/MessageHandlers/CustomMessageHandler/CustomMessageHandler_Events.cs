@@ -44,7 +44,7 @@ Nuget地址：https://www.nuget.org/packages/Senparc.Weixin.MP",
             if (requestMessage.Content == "OneClick")
             {
                 var strongResponseMessage = CreateResponseMessage<ResponseMessageText>();
-                strongResponseMessage.Content = "您点击了底部按钮。\r\n为了测试微信软件换行bug的应对措施，这里做了一个——\r\n换行";
+                strongResponseMessage.Content = "祖爷 你好啊！！！您点击了底部按钮。\r\n为了测试微信软件换行bug的应对措施，这里做了一个——\r\n换行";
                 return strongResponseMessage;
             }
             return null;//返回null，则继续执行OnTextRequest或OnEventRequest
@@ -61,14 +61,14 @@ Nuget地址：https://www.nuget.org/packages/Senparc.Weixin.MP",
                         //这个过程实际已经在OnTextOrEventRequest中完成，这里不会执行到。
                         var strongResponseMessage = CreateResponseMessage<ResponseMessageText>();
                         reponseMessage = strongResponseMessage;
-                        strongResponseMessage.Content = "您点击了底部按钮。\r\n为了测试微信软件换行bug的应对措施，这里做了一个——\r\n换行";
+                        strongResponseMessage.Content = "祖爷 你好啊！！！！您点击了底部按钮。\r\n为了测试微信软件换行bug的应对措施，这里做了一个——\r\n换行";
                     }
                     break;
                 case "SubClickRoot_Text":
                     {
                         var strongResponseMessage = CreateResponseMessage<ResponseMessageText>();
                         reponseMessage = strongResponseMessage;
-                        strongResponseMessage.Content = "您点击了子菜单按钮。";
+                        strongResponseMessage.Content = "祖爷 你好啊！！！！您点击了子菜单按钮。";
                     }
                     break;
                 case "SubClickRoot_News":
@@ -77,8 +77,15 @@ Nuget地址：https://www.nuget.org/packages/Senparc.Weixin.MP",
                         reponseMessage = strongResponseMessage;
                         strongResponseMessage.Articles.Add(new Article()
                         {
-                            Title = "您点击了子菜单图文按钮",
-                            Description = "您点击了子菜单图文按钮，这是一条图文信息。",
+                            Title = "祖爷 你好啊！！！！您点击了子菜单图文按钮",
+                            Description = "您点击了子菜单图文按钮，这是一条图文信息。呵呵呵",
+                            PicUrl = "http://weixin.senparc.com/Images/qrcode.jpg",
+                            Url = "http://weixin.senparc.com"
+                        });
+                        strongResponseMessage.Articles.Add(new Article()
+                        {
+                            Title = "2祖爷 你好啊！！！！您点击了子菜单图文按钮",
+                            Description = "您点击了子菜单图文按钮，这是一条图文信息。呵呵呵",
                             PicUrl = "http://weixin.senparc.com/Images/qrcode.jpg",
                             Url = "http://weixin.senparc.com"
                         });
